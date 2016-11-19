@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="33b0532bdd43cd67dff9d6c3302a33b80ca55113">
+<index version="1" name="me2beats Scripts" commit="272cc5dafaf02dd20394143fd519c96a1e16fc8b">
   <category name="FX">
     <reapack name="me2beats_Copy focused FX (with automation) to selected tracks.lua" type="script" desc="Copy focused FX (with automation) to selected tracks">
       <version name="0.7" author="me2beats" time="2016-11-18T14:23:51Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/33b0532bdd43cd67dff9d6c3302a33b80ca55113/FX/me2beats_Copy%20focused%20FX%20(with%20automation)%20to%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Tracks">
+    <reapack name="me2beats_Auto solo selected tracks (defer).lua" type="script" desc="Auto solo selected tracks (defer)">
+      <version name="1" author="me2beats" time="2016-11-19T17:25:02Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/272cc5dafaf02dd20394143fd519c96a1e16fc8b/Tracks/me2beats_Auto%20solo%20selected%20tracks%20(defer).lua</source>
       </version>
     </reapack>
   </category>
