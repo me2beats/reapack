@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="272cc5dafaf02dd20394143fd519c96a1e16fc8b">
+<index version="1" name="me2beats Scripts" commit="4895e95a821fa826ed012d0bc6f6d6c7500ab795">
   <category name="FX">
     <reapack name="me2beats_Copy focused FX (with automation) to selected tracks.lua" type="script" desc="Copy focused FX (with automation) to selected tracks">
       <version name="0.7" author="me2beats" time="2016-11-18T14:23:51Z">
@@ -13,6 +13,17 @@
       <version name="1" author="me2beats" time="2016-11-19T17:25:02Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/272cc5dafaf02dd20394143fd519c96a1e16fc8b/Tracks/me2beats_Auto%20solo%20selected%20tracks%20(defer).lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2016-11-20T20:15:05Z">
+        <changelog><![CDATA[+ init
++ rec arm like behavior (see some bugs when changing project tabs, will fix this soon)]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4895e95a821fa826ed012d0bc6f6d6c7500ab795/Tracks/me2beats_Auto%20solo%20selected%20tracks%20(defer).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle auto solo when track selected.lua" type="script" desc="Toggle auto solo when tracks selected">
+      <version name="1.0" author="me2beats" time="2016-11-20T20:15:05Z">
+        <changelog><![CDATA[+ init (use this script with Auto solo selected tracks!)]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4895e95a821fa826ed012d0bc6f6d6c7500ab795/Tracks/me2beats_Toggle%20auto%20solo%20when%20track%20selected.lua</source>
       </version>
     </reapack>
   </category>
