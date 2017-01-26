@@ -1,10 +1,962 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="9139b710e519a7a3cc0d28245c8c239e6be2ab94">
+<index version="1" name="me2beats Scripts" commit="97365500eb18adf2cca7d40b5cf18c846f8e21d6">
+  <category name="Envelopes">
+    <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Copy%20active%20take%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Insert new envelope point at mouse (obey snapping).lua" type="script" desc="Insert new envelope point at mouse (obey snapping)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Insert%20new%20envelope%20point%20at%20mouse%20(obey%20snapping).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Paste envelopes to active takes of selected items.lua" type="script" desc="Paste envelopes to active takes of selected items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Paste%20envelopes%20to%20active%20takes%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="FX">
+    <reapack name="me2beats_Add fx by name to selected track.lua" type="script" desc="Add fx by name to selected track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Add%20fx%20by%20name%20to%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Add fx by name to track under mouse.lua" type="script" desc="Add fx by name to track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Add%20fx%20by%20name%20to%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Close last touched floating FX window.lua" type="script" desc="Close last touched floating FX window">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Close%20last%20touched%20floating%20FX%20window.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Copy focused FX (with automation) to selected tracks.lua" type="script" desc="Copy focused FX (with automation) to selected tracks">
       <version name="0.7" author="me2beats" time="2016-11-18T14:23:51Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/33b0532bdd43cd67dff9d6c3302a33b80ca55113/FX/me2beats_Copy%20focused%20FX%20(with%20automation)%20to%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Rename current FX preset (of focused FX).lua" type="script" desc="Rename current FX preset (of focused FX)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Rename%20current%20FX%20preset%20(of%20focused%20FX).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set preset.lua" type="script" desc="Set preset">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Set%20preset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set random preset.lua" type="script" desc="Set random preset">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Set%20random%20preset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set random user preset.lua" type="script" desc="Set random user preset">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Set%20random%20user%20preset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle all input FX bypass for selected track.lua" type="script" desc="Toggle all input FX bypass for selected track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Toggle%20all%20input%20FX%20bypass%20for%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle bypass focused fx.lua" type="script" desc="Toggle bypass focused fx">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Toggle%20bypass%20focused%20fx.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Items">
+    <reapack name="me2beats_Copy FX of item under mouse to selected items (active takes).lua" type="script" desc="Copy FX of item under mouse to selected items (active takes)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Copy%20FX%20of%20item%20under%20mouse%20to%20selected%20items%20(active%20takes).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Copy items positions.lua" type="script" desc="Copy items positions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Copy%20items%20positions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate items (fill time selection).lua" type="script" desc="Duplicate items (fill time selection)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Duplicate%20items%20(fill%20time%20selection).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate selected items to selected track.lua" type="script" desc="Duplicate selected items to selected track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Duplicate%20selected%20items%20to%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Fit first item end to second item start (stretch).lua" type="script" desc="Fit first item end to second item start (stretch)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Fit%20first%20item%20end%20to%20second%20item%20start%20(stretch).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Increase selected items volume linearly.lua" type="script" desc="Increase selected items volume linearly">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Increase%20selected%20items%20volume%20linearly.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Insert 2 bars midi item at mouse.lua" type="script" desc="Insert 2 bars midi item at mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Insert%202%20bars%20midi%20item%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Insert 4 bars midi item at mouse.lua" type="script" desc="Insert 4 bars midi item at mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Insert%204%20bars%20midi%20item%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Insert 4 bars midi item.lua" type="script" desc="Insert 4 bars midi item">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Insert%204%20bars%20midi%20item.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Insert a bar midi item at mouse.lua" type="script" desc="Insert a bar midi item at mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Insert%20a%20bar%20midi%20item%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Invert item selection on selected track.lua" type="script" desc="Invert item selection on selected track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Invert%20item%20selection%20on%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move item content left one grid unit.lua" type="script" desc="Move item content left one grid unit">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20item%20content%20left%20one%20grid%20unit.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move item content right one grid unit.lua" type="script" desc="Move item content right one grid unit">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20item%20content%20right%20one%20grid%20unit.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move items to selected track.lua" type="script" desc="Move items to selected track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20items%20to%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move selected items to next item.lua" type="script" desc="Move selected items to next item">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20next%20item.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move selected items to next track (create track if doesn't exist).lua" type="script" desc="Move selected items to next track (create track if doesn't exist)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20next%20track%20(create%20track%20if%20doesn't%20exist).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move selected items to next track.lua" type="script" desc="Move selected items to next track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20next%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move selected items to previous item.lua" type="script" desc="Move selected items to previous item">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20previous%20item.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move selected items to previous track.lua" type="script" desc="Move selected items to previous track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20previous%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge active take volume.lua" type="script" desc="Nudge active take volume">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Nudge%20active%20take%20volume.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected items volume down by 1 db.lua" type="script" desc="Nudge selected items volume down by 1 db">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Nudge%20selected%20items%20volume%20down%20by%201%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected items volume up by 1 db.lua" type="script" desc="Nudge selected items volume up by 1 db">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Nudge%20selected%20items%20volume%20up%20by%201%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected items volume.lua" type="script" desc="Nudge selected items volume">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Nudge%20selected%20items%20volume.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Paste items at copied positions.lua" type="script" desc="Paste items at copied positions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Paste%20items%20at%20copied%20positions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Pool active takes of selected items.lua" type="script" desc="Pool active takes of selected items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Pool%20active%20takes%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove item under mouse.lua" type="script" desc="Remove item under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20item%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove selected items envelopes.lua" type="script" desc="Remove selected items envelopes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20selected%20items%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only even items.lua" type="script" desc="Select only even items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Select%20only%20even%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only odd items.lua" type="script" desc="Select only odd items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Select%20only%20odd%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select take (by name).lua" type="script" desc="Select take (by name)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Select%20take%20(by%20name).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select take (by number).lua" type="script" desc="Select take (by number)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Select%20take%20(by%20number).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set crossfade shape to type 2.lua" type="script" desc="Set crossfade shape to type 2">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20crossfade%20shape%20to%20type%202.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set distance between items (with input box).lua" type="script" desc="Set distance between items (with input box)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20distance%20between%20items%20(with%20input%20box).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set distance between items.lua" type="script" desc="Set distance between items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20distance%20between%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set ends of items to cursor (stretch takes).lua" type="script" desc="Set ends of items to cursor (stretch takes)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20ends%20of%20items%20to%20cursor%20(stretch%20takes).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set item rate to 1 (move item start).lua" type="script" desc="Set item rate to 1 (move item start)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20item%20rate%20to%201%20(move%20item%20start).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items fade in to default length.lua" type="script" desc="Set items fade in to default length">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20fade%20in%20to%20default%20length.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items fade in.lua" type="script" desc="Set items fade in">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20fade%20in.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items fade out to default length.lua" type="script" desc="Set items fade out to default length">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20fade%20out%20to%20default%20length.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items fade out.lua" type="script" desc="Set items fade out">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20fade%20out.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items length to 0.5 (stretch items).lua" type="script" desc="Set items length to 0.5 (stretch items)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20length%20to%200.5%20(stretch%20items).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items length to 2 (stretch items).lua" type="script" desc="Set items length to 2 (stretch items)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20length%20to%202%20(stretch%20items).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items volume to 0 db.lua" type="script" desc="Set items volume to 0 db">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20volume%20to%200%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set items volume.lua" type="script" desc="Set items volume">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20items%20volume.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set selected item notes end to end of item.lua" type="script" desc="Set selected item notes end to end of item">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20selected%20item%20notes%20end%20to%20end%20of%20item.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set selected items fades.lua" type="script" desc="Set selected items fades">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20selected%20items%20fades.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set selected items length to length of item under mouse.lua" type="script" desc="Set selected items length to length of item under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Set%20selected%20items%20length%20to%20length%20of%20item%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split items in half.lua" type="script" desc="Split items in half">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20in%20half.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split items with given length.lua" type="script" desc="Split items with given length">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20with%20given%20length.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split items with given length_2 (without input box).lua" type="script" desc="Split items with given length_2 (without input box)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20with%20given%20length_2%20(without%20input%20box).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split items with given length_2.lua" type="script" desc="Split items with given length_2">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20with%20given%20length_2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Transpose%20audio%20items%20or%20midi%20items%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Transpose selected track audio items or midi items notes.lua" type="script" desc="Transpose selected track audio items or midi items notes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Transpose%20selected%20track%20audio%20items%20or%20midi%20items%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim end of selected item to end of time selection.lua" type="script" desc="Trim end of selected item to end of time selection">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20end%20of%20selected%20item%20to%20end%20of%20time%20selection.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim first item end and second item start to edit cursor.lua" type="script" desc="Trim first item end and second item start to edit cursor">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20first%20item%20end%20and%20second%20item%20start%20to%20edit%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items edges to nearest grid divisions (increase items length).lua" type="script" desc="Trim sel items edges to nearest grid divisions (increase items length)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20edges%20to%20nearest%20grid%20divisions%20(increase%20items%20length).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items edges to nearest grid divisions.lua" type="script" desc="Trim sel items edges to nearest grid divisions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20edges%20to%20nearest%20grid%20divisions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items edges to nearest measure (increase items length).lua" type="script" desc="Trim sel items edges to nearest measure (increase items length)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20edges%20to%20nearest%20measure%20(increase%20items%20length).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items left edges to nearest grid divisions (increase items length).lua" type="script" desc="Trim sel items left edges to nearest grid divisions (increase items length)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20left%20edges%20to%20nearest%20grid%20divisions%20(increase%20items%20length).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items left edges to nearest grid divisions.lua" type="script" desc="Trim sel items left edges to nearest grid divisions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20left%20edges%20to%20nearest%20grid%20divisions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items right edges to nearest grid divisions (increase items length).lua" type="script" desc="Trim sel items right edges to nearest grid divisions (increase items length)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20right%20edges%20to%20nearest%20grid%20divisions%20(increase%20items%20length).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim sel items right edges to nearest grid divisions.lua" type="script" desc="Trim sel items right edges to nearest grid divisions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20sel%20items%20right%20edges%20to%20nearest%20grid%20divisions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim start of selected item to start of time selection.lua" type="script" desc="Trim start of selected item to start of time selection">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20start%20of%20selected%20item%20to%20start%20of%20time%20selection.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Markers and regions">
+    <reapack name="me2beats_Add marker with offset.lua" type="script" desc="Add marker with offset">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Add%20marker%20with%20offset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select region at cursor.lua" type="script" desc="Select region at cursor">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Select%20region%20at%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select time from the first region to last region.lua" type="script" desc="Select time from the first region to last region">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Select%20time%20from%20the%20first%20region%20to%20last%20region.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Media Explorer">
+    <reapack name="me2beats_Open folder with media item active take source media.lua" type="script" desc="Open folder with media item active take source media">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Media%20Explorer/me2beats_Open%20folder%20with%20media%20item%20active%20take%20source%20media.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="MIDI Editor">
+    <reapack name="me2beats_Add notes of current measure to selection.lua" type="script" desc="Add notes of current measure to selection">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Add%20notes%20of%20current%20measure%20to%20selection.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Adjust value for event under mouse (mousewheel).lua" type="script" desc="Adjust value for event under mouse (mousewheel)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Adjust%20value%20for%20event%20under%20mouse%20(mousewheel).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete all notes in time selection.lua" type="script" desc="Delete all notes in time selection">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Delete%20all%20notes%20in%20time%20selection.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate selected events.lua" type="script" desc="Duplicate selected events">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Duplicate%20selected%20events.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Increase selected notes volume linearly 0.9.lua" type="script" desc="Increase selected notes volume linearly 0.9">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Increase%20selected%20notes%20volume%20linearly%200.9.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Reverse horizontally 2 selected notes.lua" type="script" desc="Reverse horizontally 2 selected notes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Reverse%20horizontally%202%20selected%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only chord under mouse.lua" type="script" desc="Select only chord under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20chord%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only even notes.lua" type="script" desc="Select only even notes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20even%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only note under mouse.lua" type="script" desc="Select only note under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only odd notes.lua" type="script" desc="Select only odd notes">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20odd%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Solo track with active midi editor.lua" type="script" desc="Solo track with active midi editor">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Solo%20track%20with%20active%20midi%20editor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle select chord under mouse.lua" type="script" desc="Toggle select chord under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Toggle%20select%20chord%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Projects">
+    <reapack name="me2beats_Go to first project tab.lua" type="script" desc="Go to first project tab">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Go%20to%20first%20project%20tab.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Go to last project tab.lua" type="script" desc="Go to last project tab">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Go%20to%20last%20project%20tab.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Save all projects as new versions.lua" type="script" desc="Save all projects as new versions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Save%20all%20projects%20as%20new%20versions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Save all unsaved (dirty) projects as new versions.lua" type="script" desc="Save all unsaved (dirty) projects as new versions">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Save%20all%20unsaved%20(dirty)%20projects%20as%20new%20versions.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Tracks">
+    <reapack name="me2beats_Auto select track with focused FX 1.2 (defer).lua" type="script" desc="Auto select track with focused FX 1.2 (defer)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Auto%20select%20track%20with%20focused%20FX%201.2%20(defer).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Close focused track fx window.lua" type="script" desc="Close focused track fx window">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Close%20focused%20track%20fx%20window.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Create folder from selected tracks.lua" type="script" desc="Create folder from selected tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Create%20folder%20from%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete track under mouse.lua" type="script" desc="Delete track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Delete%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate tracks without envelopes and items.lua" type="script" desc="Duplicate tracks without envelopes and items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Duplicate%20tracks%20without%20envelopes%20and%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate tracks without items.lua" type="script" desc="Duplicate tracks without items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Duplicate%20tracks%20without%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Go to next soloed track.lua" type="script" desc="Go to next soloed track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Go%20to%20next%20soloed%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Go to previous soloed track.lua" type="script" desc="Go to previous soloed track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Go%20to%20previous%20soloed%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Hide mcp sends area.lua" type="script" desc="Hide mcp sends area">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Hide%20mcp%20sends%20area.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected track volume.lua" type="script" desc="Nudge selected track volume">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Nudge%20selected%20track%20volume.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected tracks volume down by 1 db.lua" type="script" desc="Nudge selected tracks volume down by 1 db">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Nudge%20selected%20tracks%20volume%20down%20by%201%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge selected tracks volume up by 1 db.lua" type="script" desc="Nudge selected tracks volume up by 1 db">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Nudge%20selected%20tracks%20volume%20up%20by%201%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove focused track fx.lua" type="script" desc="Remove focused track fx">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20focused%20track%20fx.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove muted tracks.lua" type="script" desc="Remove muted tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20muted%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove tracks with no items (except tracks with sends and hidden tracks).lua" type="script" desc="Remove tracks with no items (except tracks with sends and hidden tracks)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20tracks%20with%20no%20items%20(except%20tracks%20with%20sends%20and%20hidden%20tracks).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove tracks with no items (except tracks with sends).lua" type="script" desc="Remove tracks with no items (except tracks with sends)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20tracks%20with%20no%20items%20(except%20tracks%20with%20sends).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove tracks with no items and no fx (except tracks with sends, receives and hardware outputs).lua" type="script" desc="Remove tracks with no items and no fx (except tracks with sends, receives and hardware outputs)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20tracks%20with%20no%20items%20and%20no%20fx%20(except%20tracks%20with%20sends,%20receives%20and%20hardware%20outputs).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove tracks with no items.lua" type="script" desc="Remove tracks with no items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Remove%20tracks%20with%20no%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select all receives.lua" type="script" desc="Select all receives">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20receives.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select all sends.lua" type="script" desc="Select all sends">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20sends.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select all tracks but children.lua" type="script" desc="Select all tracks but children">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20tracks%20but%20children.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select all tracks with hardware outputs.lua" type="script" desc="Select all tracks with hardware outputs">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20tracks%20with%20hardware%20outputs.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only last track.lua" type="script" desc="Select only last track">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20only%20last%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks from first track to selected one (but hidden tracks).lua" type="script" desc="Select tracks from first track to selected one (but hidden tracks)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20from%20first%20track%20to%20selected%20one%20(but%20hidden%20tracks).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks from first track to selected one.lua" type="script" desc="Select tracks from first track to selected one">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20from%20first%20track%20to%20selected%20one.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks from selected track to last one (but hidden tracks).lua" type="script" desc="Select tracks from selected track to last one (but hidden tracks)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20from%20selected%20track%20to%20last%20one%20(but%20hidden%20tracks).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks from selected track to last one.lua" type="script" desc="Select tracks from selected track to last one">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20from%20selected%20track%20to%20last%20one.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks with no items (except tracks with sends and hidden tracks).lua" type="script" desc="Select tracks with no items (except tracks with sends and hidden tracks)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20with%20no%20items%20(except%20tracks%20with%20sends%20and%20hidden%20tracks).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks with no items (except tracks with sends).lua" type="script" desc="Select tracks with no items (except tracks with sends)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20with%20no%20items%20(except%20tracks%20with%20sends).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks with no items and no fx (except tracks with sends, receives and hardware outputs).lua" type="script" desc="Select tracks with no items and no fx (except tracks with sends, receives and hardware outputs)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20with%20no%20items%20and%20no%20fx%20(except%20tracks%20with%20sends,%20receives%20and%20hardware%20outputs).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks with no items.lua" type="script" desc="Select tracks with no items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20with%20no%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks with the same color as selected one.lua" type="script" desc="Select tracks with the same color as selected one">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20with%20the%20same%20color%20as%20selected%20one.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Send track under mouse to selected tracks.lua" type="script" desc="Send track under mouse to selected tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Send%20track%20under%20mouse%20to%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set name of track at mouse to selected tracks.lua" type="script" desc="Set name of track at mouse to selected tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Set%20name%20of%20track%20at%20mouse%20to%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set pan for selected tracks.lua" type="script" desc="Set pan for selected tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Set%20pan%20for%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set pan for track under mouse.lua" type="script" desc="Set pan for track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Set%20pan%20for%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set selected tracks color to color of track under mouse.lua" type="script" desc="Set selected tracks color to color of track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Set%20selected%20tracks%20color%20to%20color%20of%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set selected tracks name to name of track under mouse.lua" type="script" desc="Set selected tracks name to name of track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Set%20selected%20tracks%20name%20to%20name%20of%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Show selected track receives fx windows.lua" type="script" desc="Show selected track receives fx windows">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Show%20selected%20track%20receives%20fx%20windows.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Show selected track sends fx windows.lua" type="script" desc="Show selected track sends fx windows">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Show%20selected%20track%20sends%20fx%20windows.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle exclusive solo for selected tracks.lua" type="script" desc="Toggle exclusive solo for selected tracks">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20exclusive%20solo%20for%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle exclusive solo for track under mouse.lua" type="script" desc="Toggle exclusive solo for track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20exclusive%20solo%20for%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle mute track under mouse.lua" type="script" desc="Toggle mute track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20mute%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle solo track under mouse.lua" type="script" desc="Toggle solo track under mouse">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20solo%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Transport and navigation">
+    <reapack name="me2beats_Copy BPM.lua" type="script" desc="Copy BPM">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Copy%20BPM.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Go to the rightmost item end.lua" type="script" desc="Go to the rightmost item end">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Go%20to%20the%20rightmost%20item%20end.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Horizontal zoom to project.lua" type="script" desc="Horizontal zoom to project">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Horizontal%20zoom%20to%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Horizontal zoom to selected items.lua" type="script" desc="Horizontal zoom to selected items">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Horizontal%20zoom%20to%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to nearest grid division.lua" type="script" desc="Move cursor to nearest grid division">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20nearest%20grid%20division.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to the rightmost item end.lua" type="script" desc="Move cursor to the rightmost item end">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20the%20rightmost%20item%20end.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection end left one measure.lua" type="script" desc="Move time selection end left one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20end%20left%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection end right one measure.lua" type="script" desc="Move time selection end right one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20end%20right%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection left one measure.lua" type="script" desc="Move time selection left one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20left%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection right one measure.lua" type="script" desc="Move time selection right one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20right%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection start left one measure.lua" type="script" desc="Move time selection start left one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20start%20left%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move time selection start right one measure.lua" type="script" desc="Move time selection start right one measure">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20time%20selection%20start%20right%20one%20measure.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Paste BPM.lua" type="script" desc="Paste BPM">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Paste%20BPM.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set project bpm according to selected take name bpm.lua" type="script" desc="Set project bpm according to selected take name bpm">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Set%20project%20bpm%20according%20to%20selected%20take%20name%20bpm.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Stop all projects.lua" type="script" desc="Stop all projects">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Stop%20all%20projects.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Vertical zoom to project.lua" type="script" desc="Vertical zoom to project">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Vertical%20zoom%20to%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Zoom horizontally if ruler is at mouse (otherwise scroll vertically).lua" type="script" desc="Zoom horizontally if ruler is at mouse (otherwise scroll vertically)">
+      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Zoom%20horizontally%20if%20ruler%20is%20at%20mouse%20(otherwise%20scroll%20vertically).lua</source>
       </version>
     </reapack>
   </category>
