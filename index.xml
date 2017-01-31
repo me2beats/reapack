@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="18cbff8ecff7a8fdd1d4073e8d33708e53bfd422">
+<index version="1" name="me2beats Scripts" commit="fc7da3d0db50cb1c7667e9fec2efde25c9900515">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -201,6 +201,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Move%20selected%20items%20to%20previous%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Normalize items (active takes) with track volume compensation.lua" type="script" desc="normalize items (active takes) with track volume compensation">
+      <version name="1.0" author="me2beats" time="2017-01-31T14:12:55Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fc7da3d0db50cb1c7667e9fec2efde25c9900515/Items/me2beats_Normalize%20items%20(active%20takes)%20with%20track%20volume%20compensation.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Nudge active take volume.lua" type="script" desc="Nudge active take volume">
