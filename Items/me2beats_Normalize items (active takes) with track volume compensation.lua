@@ -1,4 +1,4 @@
--- @description Normalize items (active takes) with track volume compensation 1.1
+-- @description Normalize items (active takes) with track volume compensation
 -- @version 1.1
 -- @author me2beats
 -- @changelog
