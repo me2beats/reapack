@@ -1,5 +1,5 @@
--- @description normalize items (active takes) with track volume compensation
--- @version 1.0
+-- @description Normalize items (active takes) with track volume compensation 1.1
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -26,9 +26,7 @@ for i = 0, items-1 do
   tr = r.GetMediaItem_Track(item)
   tr_vol = r.GetMediaTrackInfo_Value(tr, 'D_VOL')
   tr_vol_db = DB(tr_vol)
-  if tr_vol_db ~= -vol_db then
-    r.SetMediaTrackInfo_Value(tr, 'D_VOL',VOL(-vol_db))
-  end
+  r.SetMediaTrackInfo_Value(tr, 'D_VOL',VOL(tr_vol_db-vol_db))
 end
 
 r.PreventUIRefresh(-1) r.Undo_EndBlock('normalize items + compensation', -1)
