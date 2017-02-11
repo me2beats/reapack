@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="6bfb72faa18a05d333e56f635e0919be5ec47290">
+<index version="1" name="me2beats Scripts" commit="53dfc0c69a05dce39869517338812727de5449b4">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -488,6 +488,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Add%20marker%20with%20offset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select region at cursor (keeping current selection).lua" type="script" desc="Select region at cursor (keeping current selection)">
+      <version name="1.0" author="me2beats" time="2017-02-11T16:29:29Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/53dfc0c69a05dce39869517338812727de5449b4/Markers%20and%20regions/me2beats_Select%20region%20at%20cursor%20(keeping%20current%20selection).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select region at cursor.lua" type="script" desc="Select region at cursor">
