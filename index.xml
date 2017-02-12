@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="53dfc0c69a05dce39869517338812727de5449b4">
+<index version="1" name="me2beats Scripts" commit="ee8d96437f72df8c10fda6c38cfd7055b83360d3">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -750,10 +750,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20tracks%20with%20hardware%20outputs.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select next hidden track.lua" type="script" desc="Select next hidden track">
+      <version name="1.0" author="me2beats" time="2017-02-12T07:19:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ee8d96437f72df8c10fda6c38cfd7055b83360d3/Tracks/me2beats_Select%20next%20hidden%20track.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select only last track.lua" type="script" desc="Select only last track">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20only%20last%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select previous hidden track.lua" type="script" desc="Select previous hidden track">
+      <version name="1.0" author="me2beats" time="2017-02-12T07:19:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ee8d96437f72df8c10fda6c38cfd7055b83360d3/Tracks/me2beats_Select%20previous%20hidden%20track.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select tracks from first track to selected one (but hidden tracks).lua" type="script" desc="Select tracks from first track to selected one (but hidden tracks)">
