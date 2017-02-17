@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="ee8d96437f72df8c10fda6c38cfd7055b83360d3">
+<index version="1" name="me2beats Scripts" commit="96f17c633dc82c3408cc08a46dffa4e51b79f21f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -528,6 +528,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Adjust%20value%20for%20event%20under%20mouse%20(mousewheel).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Auto set selected notes pitch to last touched note pitch (defer).lua" type="script" desc="Auto set selected notes pitch to last touched note pitch (defer)">
+      <version name="0.9" author="me2beats" time="2017-02-17T00:08:39Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/96f17c633dc82c3408cc08a46dffa4e51b79f21f/MIDI%20Editor/me2beats_Auto%20set%20selected%20notes%20pitch%20to%20last%20touched%20note%20pitch%20(defer).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Delete all notes in time selection.lua" type="script" desc="Delete all notes in time selection">
