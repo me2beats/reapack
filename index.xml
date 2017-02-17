@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="96f17c633dc82c3408cc08a46dffa4e51b79f21f">
+<index version="1" name="me2beats Scripts" commit="b7fba12b2d10be7caf024dd9b8d1a75b736d6d3f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -534,6 +534,14 @@
       <version name="0.9" author="me2beats" time="2017-02-17T00:08:39Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/96f17c633dc82c3408cc08a46dffa4e51b79f21f/MIDI%20Editor/me2beats_Auto%20set%20selected%20notes%20pitch%20to%20last%20touched%20note%20pitch%20(defer).lua</source>
+      </version>
+      <version name="0.91" author="me2beats" time="2017-02-17T00:37:08Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/24f336c46205ddf2453b480e5860986bd0c030f4/MIDI%20Editor/me2beats_Auto%20set%20selected%20notes%20pitch%20to%20last%20touched%20note%20pitch%20(defer).lua</source>
+      </version>
+      <version name="1.0" author="me2beats" time="2017-02-17T00:49:23Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/b7fba12b2d10be7caf024dd9b8d1a75b736d6d3f/MIDI%20Editor/me2beats_Auto%20set%20selected%20notes%20pitch%20to%20last%20touched%20note%20pitch%20(defer).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Delete all notes in time selection.lua" type="script" desc="Delete all notes in time selection">
