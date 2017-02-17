@@ -1,5 +1,5 @@
 -- @description Auto set selected notes pitch to last touched note pitch (defer)
--- @version 0.9
+-- @version 0.91
 -- @author me2beats
 -- @changelog
 --  + init
