@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="ea07b419ab01a24986fc1559b815a4b7d346a1d4">
+<index version="1" name="me2beats Scripts" commit="68dc7b6acf1f903427c7a79cc347f9a8a30ade1b">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -910,6 +910,18 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20solo%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Translit (all tracks names).lua" type="script" desc="Translit (all tracks names)">
+      <version name="1.0" author="me2beats" time="2017-02-17T15:54:14Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/68dc7b6acf1f903427c7a79cc347f9a8a30ade1b/Tracks/me2beats_Translit%20(all%20tracks%20names).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Translit (sel tracks names).lua" type="script" desc="Translit (sel tracks names)">
+      <version name="1.0" author="me2beats" time="2017-02-17T15:54:14Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/68dc7b6acf1f903427c7a79cc347f9a8a30ade1b/Tracks/me2beats_Translit%20(sel%20tracks%20names).lua</source>
       </version>
     </reapack>
   </category>
