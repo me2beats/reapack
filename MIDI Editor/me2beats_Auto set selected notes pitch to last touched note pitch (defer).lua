@@ -34,7 +34,9 @@ function Val()
   
     r.SetMediaTrackInfo_Value(track, 'I_RECARM',1)
     r.SetMediaTrackInfo_Value(track, 'I_RECMON',1)
+    r.SetMediaTrackInfo_Value(track, 'I_RECMODE',2)
   end
+  
   
   if found == -1 then r.MB('Something went wrong','Oops',0) return end
   
