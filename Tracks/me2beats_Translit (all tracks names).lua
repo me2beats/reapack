@@ -1,6 +1,12 @@
+-- @description Translit (all tracks names)
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
-local tracks = r.CountSelectedTracks()
+local tracks = r.CountTracks()
 
 if tracks == 0 then bla() return end
 
@@ -74,7 +80,7 @@ r.Undo_BeginBlock()
 
 for i = 0, tracks-1 do
 
-  local track = r.GetSelectedTrack(0,i)
+  local track = r.GetTrack(0,i)
   _, tr_name = r.GetSetMediaTrackInfo_String(track, 'P_NAME', '', 0)
 
   for key,val in pairs(v) do
@@ -85,4 +91,4 @@ for i = 0, tracks-1 do
 
 end
 
-r.Undo_EndBlock('Translit (sel tracks names)', -1)
+r.Undo_EndBlock('Translit (all tracks names)', -1)
