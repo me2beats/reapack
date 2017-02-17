@@ -1,5 +1,5 @@
 -- @description Auto set selected notes pitch to last touched note pitch (defer)
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
 --  + init
@@ -113,8 +113,9 @@ function main()
   val = Val()
 
   if not last_val or val ~= last_val then
-
-    set_pitch(val)
+    if val ~= 0 then
+      set_pitch(val)
+    end
 
     last_val = val
   end
@@ -144,4 +145,3 @@ val = Val()
 _, _, sec, cmd = r.get_action_context()
 SetButtonON()
 r.atexit(SetButtonOFF)
-
