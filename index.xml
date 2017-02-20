@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="5536d922c8236c8730c4bb71a4911f55d58a8823">
+<index version="1" name="me2beats Scripts" commit="fbf80761c44a042ace6ba181e285e208ce1a3896">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -105,6 +105,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Copy%20items%20positions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Destutter items.lua" type="script" desc="Destutter items">
+      <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Destutter%20items.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate items (fill time selection).lua" type="script" desc="Duplicate items (fill time selection)">
@@ -420,6 +426,18 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20with%20given%20length_2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Stutter items (mousewheel).lua" type="script" desc="Stutter items (mousewheel)">
+      <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Stutter%20items%20(mousewheel).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Stutter items.lua" type="script" desc="Stutter items">
+      <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Stutter%20items.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
