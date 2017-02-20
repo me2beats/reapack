@@ -1,3 +1,9 @@
+-- @description Stutter items (mousewheel)
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 undo = -1
 min_len = 0.001
 
