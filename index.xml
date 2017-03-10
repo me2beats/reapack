@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="0bfa6052a32b70f759e14187b1a00a726003a300">
+<index version="1" name="me2beats Scripts" commit="8181df9c48460f3089f982afd9dad3c216fa676c">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -111,6 +111,11 @@
       <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Destutter%20items.lua</source>
+      </version>
+      <version name="1.01" author="me2beats" time="2017-03-10T23:27:01Z">
+        <changelog><![CDATA[+ init
++ minor update]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Items/me2beats_Destutter%20items.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate items (fill time selection).lua" type="script" desc="Duplicate items (fill time selection)">
@@ -439,6 +444,11 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Stutter%20items.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-03-10T23:27:01Z">
+        <changelog><![CDATA[+ init
++ some bugs fixed]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Items/me2beats_Stutter%20items.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -536,6 +546,18 @@
       <version name="1.0" author="me2beats" time="2017-03-10T18:49:23Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/0bfa6052a32b70f759e14187b1a00a726003a300/Markers%20and%20regions/me2beats_Duplicate%20regions%20in%20time%20selection%20(with%20items,%20insert%20time).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove selected regions contents (moving later items and loop points).lua" type="script" desc="Remove selected regions contents (moving later items and loop points)">
+      <version name="1.0" author="me2beats" time="2017-03-10T23:27:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Markers%20and%20regions/me2beats_Remove%20selected%20regions%20contents%20(moving%20later%20items%20and%20loop%20points).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove selected regions contents (moving later items).lua" type="script" desc="Remove selected regions contents (moving later items)">
+      <version name="1.0" author="me2beats" time="2017-03-10T23:27:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Markers%20and%20regions/me2beats_Remove%20selected%20regions%20contents%20(moving%20later%20items).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select region at cursor (keeping current selection).lua" type="script" desc="Select region at cursor (keeping current selection)">
@@ -1092,6 +1114,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Vertical%20zoom%20to%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Vertical zoom to tracks with items, minimize others.lua" type="script" desc="Vertical zoom to tracks with items, minimize others">
+      <version name="1.0" author="me2beats" time="2017-03-10T23:27:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Transport%20and%20navigation/me2beats_Vertical%20zoom%20to%20tracks%20with%20items,%20minimize%20others.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Zoom horizontally if ruler is at mouse (otherwise scroll vertically).lua" type="script" desc="Zoom horizontally if ruler is at mouse (otherwise scroll vertically)">
