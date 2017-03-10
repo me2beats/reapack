@@ -1,11 +1,12 @@
 -- @description Stutter items
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
+--  + some bugs fixed
 
 undo = -1
-min_len = 0.001
+min_len = 0.01
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -48,18 +49,24 @@ if it_len < min_len then bla() return end
 
 
 if items == 1 then
+
+  it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
+  
+  r.Undo_BeginBlock()
+  r.PreventUIRefresh(1)
+  
+  r.SetMediaItemInfo_Value(it, 'D_POSITION', r.BR_GetClosestGridDivision(it_pos+0.000001))
   it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
   it_end = it_pos+it_len
 
-  grid = r.BR_GetNextGridDivision(0)
-
-  r.Undo_BeginBlock()
-  r.PreventUIRefresh(1)
+  local next_div1 = r.BR_GetNextGridDivision(it_pos)
+  local next_div2 = r.BR_GetNextGridDivision(next_div1)
+  local grid = next_div2-next_div1
   
   prev_gr = r.BR_GetPrevGridDivision(it_end)
   next_gr = r.BR_GetNextGridDivision(it_end)
   
-  snaped = math.abs(next_gr-prev_gr-2*grid)<0.000001
+  snaped = math.abs(r.BR_GetClosestGridDivision(it_end+0.000001)-it_end)<0.000001
 
   x = math.floor((it_len/grid)+0.0000001)%4
   y = math.floor((it_len/grid)+0.0000001)/4
@@ -80,7 +87,7 @@ if items == 1 then
   else
     if x == 0 then if not snaped then prv() end
     elseif x == 1 or x == 3 then nxt()
-    elseif x == 2 then nnxt() end
+    elseif x == 2 then nnext() end
   end
   
   min,max = sel_items_area()
@@ -97,7 +104,7 @@ if items == 1 then
 end
 
 
-min,max = sel_items_area()
+local min,max = sel_items_area()
 
 r.Undo_BeginBlock()
 r.PreventUIRefresh(1)

@@ -1,13 +1,14 @@
 -- @description Destutter items
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
 --  + init
+--  + minor update
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end;
 
 local items = r.CountSelectedMediaItems(0)
-if items <= 1 then return end
+if items <= 1 then bla() return end
 
 it = r.GetSelectedMediaItem(0,0)
 tr = r.GetMediaItem_Track(it)
