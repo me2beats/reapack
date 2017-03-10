@@ -1,11 +1,12 @@
 -- @description Stutter items (mousewheel)
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
+--  + some bugs fixed
 
 undo = -1
-min_len = 0.001
+min_len = 0.01
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -55,28 +56,34 @@ if val < 0 then
   
   
   if items == 1 then
+
     it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
-    it_end = it_pos+it_len
-  
-    grid = r.BR_GetNextGridDivision(0)
-  
+
     r.Undo_BeginBlock()
     r.PreventUIRefresh(1)
-    
+
+    r.SetMediaItemInfo_Value(it, 'D_POSITION', r.BR_GetClosestGridDivision(it_pos+0.000001))
+    it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
+    it_end = it_pos+it_len
+
+    local next_div1 = r.BR_GetNextGridDivision(it_pos)
+    local next_div2 = r.BR_GetNextGridDivision(next_div1)
+    local grid = next_div2-next_div1
+
     prev_gr = r.BR_GetPrevGridDivision(it_end)
     next_gr = r.BR_GetNextGridDivision(it_end)
-    
-    snaped = math.abs(next_gr-prev_gr-2*grid)<0.000001
+
+    snaped = math.abs(r.BR_GetClosestGridDivision(it_end+0.000001)-it_end)<0.000001
 
     x = math.floor((it_len/grid)+0.0000001)%4
     y = math.floor((it_len/grid)+0.0000001)/4
-    
+
     next_near = next_gr-it_end < it_end-prev_gr
-    
+
     function nxt() r.ApplyNudge(0, 1, 3, 1, next_gr, 0, 0) end
     function prv() r.ApplyNudge(0, 1, 3, 1, prev_gr, 0, 0) end
     function nnext() r.ApplyNudge(0, 1, 3, 1, next_gr+grid, 0, 0) end
-    
+
     if y < 1 then
       if x == 0 then
         r.ApplyNudge(0, 1, 3, 1, next_gr, 0, 0)
@@ -87,20 +94,20 @@ if val < 0 then
     else
       if x == 0 then if not snaped then prv() end
       elseif x == 1 or x == 3 then nxt()
-      elseif x == 2 then nnxt() end
+      elseif x == 2 then nnext() end
     end
-    
+
     min,max = sel_items_area()
-  
+
     r.ApplyNudge(0, 0, 3, 20, -0.5, 0, 0)
     r.ApplyNudge(0, 0, 5, 20, 1, 0, 0)
-    
+  
     sel_tr_items_in_area (tr,min,max)
 
     r.PreventUIRefresh(-1)
     r.Undo_EndBlock('Stutter', -1)
     return
-  
+
   end
   
   
