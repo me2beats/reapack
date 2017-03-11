@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="8181df9c48460f3089f982afd9dad3c216fa676c">
+<index version="1" name="me2beats Scripts" commit="93067656be10d620755a98697c48d5c427abb09f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -437,6 +437,11 @@
       <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/fbf80761c44a042ace6ba181e285e208ce1a3896/Items/me2beats_Stutter%20items%20(mousewheel).lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-03-10T23:58:08Z">
+        <changelog><![CDATA[+ init
++ some bugs fixed]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/93067656be10d620755a98697c48d5c427abb09f/Items/me2beats_Stutter%20items%20(mousewheel).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Stutter items.lua" type="script" desc="Stutter items">
