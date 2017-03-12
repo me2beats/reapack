@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="93067656be10d620755a98697c48d5c427abb09f">
+<index version="1" name="me2beats Scripts" commit="2e8077be228be655f0a9693ed4e453ffd194211a">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -541,6 +541,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Add%20marker%20with%20offset.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Copy selected regions to cursor (with contents, move later items).lua" type="script" desc="Copy selected regions to cursor (with contents, move later items)">
+      <version name="1.0" author="me2beats" time="2017-03-12T23:46:16Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2e8077be228be655f0a9693ed4e453ffd194211a/Markers%20and%20regions/me2beats_Copy%20selected%20regions%20to%20cursor%20(with%20contents,%20move%20later%20items).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Duplicate region at mouse (with items, insert time).lua" type="script" desc="Duplicate region at mouse (with items, insert time)">
       <version name="1.0" author="me2beats" time="2017-03-10T18:49:23Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -551,6 +557,12 @@
       <version name="1.0" author="me2beats" time="2017-03-10T18:49:23Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/0bfa6052a32b70f759e14187b1a00a726003a300/Markers%20and%20regions/me2beats_Duplicate%20regions%20in%20time%20selection%20(with%20items,%20insert%20time).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Join selected regions.lua" type="script" desc="Join selected regions">
+      <version name="1.0" author="me2beats" time="2017-03-12T23:46:16Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2e8077be228be655f0a9693ed4e453ffd194211a/Markers%20and%20regions/me2beats_Join%20selected%20regions.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Remove selected regions contents (moving later items and loop points).lua" type="script" desc="Remove selected regions contents (moving later items and loop points)">
