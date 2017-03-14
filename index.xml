@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="3ab1396497e4874757fa881174d4b43a9ef01134">
+<index version="1" name="me2beats Scripts" commit="433c2de0a392e11a77ba86ae9bbe6281ab587d69">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -557,6 +557,12 @@
       <version name="1.0" author="me2beats" time="2017-03-12T23:46:16Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/2e8077be228be655f0a9693ed4e453ffd194211a/Markers%20and%20regions/me2beats_Copy%20selected%20regions%20to%20cursor%20(with%20contents,%20move%20later%20items).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Copy selected regions to project end (with contents).lua" type="script" desc="Copy selected regions to project end (with contents)">
+      <version name="1.0" author="me2beats" time="2017-03-14T00:59:44Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/433c2de0a392e11a77ba86ae9bbe6281ab587d69/Markers%20and%20regions/me2beats_Copy%20selected%20regions%20to%20project%20end%20(with%20contents).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate region at mouse (with items, insert time).lua" type="script" desc="Duplicate region at mouse (with items, insert time)">
