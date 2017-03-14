@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="2e8077be228be655f0a9693ed4e453ffd194211a">
+<index version="1" name="me2beats Scripts" commit="3ab1396497e4874757fa881174d4b43a9ef01134">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -443,6 +443,12 @@
 + some bugs fixed]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/93067656be10d620755a98697c48d5c427abb09f/Items/me2beats_Stutter%20items%20(mousewheel).lua</source>
       </version>
+      <version name="1.2" author="me2beats" time="2017-03-14T00:27:54Z">
+        <changelog><![CDATA[+ init
++ some bugs fixed
++ item selection bug fixed, smarter snap]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/3ab1396497e4874757fa881174d4b43a9ef01134/Items/me2beats_Stutter%20items%20(mousewheel).lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Stutter items.lua" type="script" desc="Stutter items">
       <version name="1.0" author="me2beats" time="2017-02-20T14:15:59Z">
@@ -453,6 +459,12 @@
         <changelog><![CDATA[+ init
 + some bugs fixed]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Items/me2beats_Stutter%20items.lua</source>
+      </version>
+      <version name="1.2" author="me2beats" time="2017-03-14T00:27:54Z">
+        <changelog><![CDATA[+ init
++ some bugs fixed
++ item selection bug fixed, smarter snap]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/3ab1396497e4874757fa881174d4b43a9ef01134/Items/me2beats_Stutter%20items.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
