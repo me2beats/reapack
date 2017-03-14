@@ -1,9 +1,10 @@
 -- @description Stutter items (mousewheel)
--- @version 1.1
+-- @version 1.2
 -- @author me2beats
 -- @changelog
 --  + init
 --  + some bugs fixed
+--  + item selection bug fixed, smarter snap
 
 undo = -1
 min_len = 0.01
@@ -11,16 +12,39 @@ min_len = 0.01
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
 function sel_tr_items_in_area (tr,x,y)
-  items = r.CountTrackMediaItems(tr)
-  for i = 0, items-1 do
-    item = r.GetTrackMediaItem(tr, i)
-    item_start = r.GetMediaItemInfo_Value(item, 'D_POSITION')
-    if item_start >= x and item_start < y then
-      r.SetMediaItemSelected(item, 1)
-      r.UpdateItemInProject(item)
+
+  local function UnselectAllTracks()
+    local first_track = r.GetTrack(0, 0)
+    r.SetOnlyTrackSelected(first_track)
+    r.SetTrackSelected(first_track, 0)
+  end
+
+  local function SaveSelTracks()
+    sel_tracks = {}
+    for i = 0, r.CountSelectedTracks()-1 do
+      sel_tracks[i+1] = r.GetSelectedTrack(0, i)
     end
   end
+
+  local function RestoreSelTracks()
+    UnselectAllTracks()
+    for _, track in ipairs(sel_tracks) do
+      r.SetTrackSelected(track, 1)
+    end
+  end
+
+  SaveSelTracks()
+  local ts_start, ts_end = r.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+  r.GetSet_LoopTimeRange(1, 0, x, y, 0)
+
+  r.SetOnlyTrackSelected(tr,1)
+  r.Main_OnCommand(40718,0) -- Select all items on selected tracks in current time selection
+  
+  RestoreSelTracks()
+  r.GetSet_LoopTimeRange(1, 0, ts_start, ts_end, 0)
+
 end
+
 
 function sel_items_area()
 
@@ -38,89 +62,98 @@ function sel_items_area()
 end
 
 
-items = r.CountSelectedMediaItems()
+function quadro_snap(item)
+  it_start = r.GetMediaItemInfo_Value(item, 'D_POSITION')
+  it_len = r.GetMediaItemInfo_Value(item, 'D_LENGTH')
+  it_end = it_start + it_len
 
+  for i = 0,1000 do
+    local msr = r.TimeMap_GetMeasureInfo(0, i)
+    if msr > it_start then
+      msr_start = r.TimeMap_GetMeasureInfo(0, i-1)
+      msr_d = msr-msr_start
+      iter = i
+    break end
+  end
+
+  for i = iter,1000 do
+    local msr = r.TimeMap_GetMeasureInfo(0, i)
+    if msr > it_end then
+      msr_end = r.TimeMap_GetMeasureInfo(0, i-1)
+    break end
+  end
+
+  log2 = function(x) return math.log(x)/math.log(2) end
+
+  esc_div3 = function(x)
+    for i = 0, 40 do
+      if log2(x) == math.floor(log2(x)) then break end
+      x = x+1
+    end
+    return x
+  end
+
+
+  if it_len < msr_d then
+    x = msr_d/esc_div3(math.floor(msr_d/it_len+0.5))
+    r.SetMediaItemInfo_Value(it, 'D_LENGTH',x)
+  else r.SetMediaItemInfo_Value(item, 'D_LENGTH',msr_d*math.floor((it_len/msr_d)+0.5))
+  end
+
+end
+
+
+
+items = r.CountSelectedMediaItems()
+if items == 0 then bla() return end
 
 
 _,_,_,_,_,_,val = r.get_action_context()
 if val < 0 then
 
-  
-  if items == 0 then bla() return end
-  
-  it = r.GetSelectedMediaItem(0,0)
-  tr = r.GetMediaItem_Track(it)
-  
-  it_len = r.GetMediaItemInfo_Value(it, "D_LENGTH")
-  if it_len < min_len then bla() return end
-  
-  
-  if items == 1 then
 
-    it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
+it = r.GetSelectedMediaItem(0,0)
+tr = r.GetMediaItem_Track(it)
 
-    r.Undo_BeginBlock()
-    r.PreventUIRefresh(1)
+it_len = r.GetMediaItemInfo_Value(it, "D_LENGTH")
+if it_len < min_len then bla() return end
 
-    r.SetMediaItemInfo_Value(it, 'D_POSITION', r.BR_GetClosestGridDivision(it_pos+0.000001))
-    it_pos = r.GetMediaItemInfo_Value(it, "D_POSITION")
-    it_end = it_pos+it_len
 
-    local next_div1 = r.BR_GetNextGridDivision(it_pos)
-    local next_div2 = r.BR_GetNextGridDivision(next_div1)
-    local grid = next_div2-next_div1
-
-    prev_gr = r.BR_GetPrevGridDivision(it_end)
-    next_gr = r.BR_GetNextGridDivision(it_end)
-
-    snaped = math.abs(r.BR_GetClosestGridDivision(it_end+0.000001)-it_end)<0.000001
-
-    x = math.floor((it_len/grid)+0.0000001)%4
-    y = math.floor((it_len/grid)+0.0000001)/4
-
-    next_near = next_gr-it_end < it_end-prev_gr
-
-    function nxt() r.ApplyNudge(0, 1, 3, 1, next_gr, 0, 0) end
-    function prv() r.ApplyNudge(0, 1, 3, 1, prev_gr, 0, 0) end
-    function nnext() r.ApplyNudge(0, 1, 3, 1, next_gr+grid, 0, 0) end
-
-    if y < 1 then
-      if x == 0 then
-        r.ApplyNudge(0, 1, 3, 1, next_gr, 0, 0)
-      elseif x == 1 then
-        if not snaped then if next_near then nxt() else prv() end end
-      elseif x == 2 then if not snaped then prv() end
-      elseif x == 3 then nxt() end
-    else
-      if x == 0 then if not snaped then prv() end
-      elseif x == 1 or x == 3 then nxt()
-      elseif x == 2 then nnext() end
-    end
-
-    min,max = sel_items_area()
-
-    r.ApplyNudge(0, 0, 3, 20, -0.5, 0, 0)
-    r.ApplyNudge(0, 0, 5, 20, 1, 0, 0)
-  
-    sel_tr_items_in_area (tr,min,max)
-
-    r.PreventUIRefresh(-1)
-    r.Undo_EndBlock('Stutter', -1)
-    return
-
-  end
-  
-  
-  min,max = sel_items_area()
-  
+if items == 1 then
   r.Undo_BeginBlock()
   r.PreventUIRefresh(1)
-  r.ApplyNudge(0, 0, 3, 20, -0.5, 0, 0)
-  r.ApplyNudge(0, 0, 5, 20, 1, 0, 0)
+
+  quadro_snap(it)
+
   
+  min,max = sel_items_area()
+
+  r.ApplyNudge(0, 0, 3, 20, -0.5, 0, 0)
+  
+  r.ApplyNudge(0, 0, 5, 20, 1, 0, 0)
+
   sel_tr_items_in_area (tr,min,max)
+--]]
   r.PreventUIRefresh(-1)
-  r.Undo_EndBlock('Stutter', undo)
+  r.Undo_EndBlock('Stutter', -1)
+  return
+
+end
+
+
+local min,max = sel_items_area()
+
+r.Undo_BeginBlock()
+r.PreventUIRefresh(1)
+r.ApplyNudge(0, 0, 3, 20, -0.5, 0, 0)
+r.ApplyNudge(0, 0, 5, 20, 1, 0, 0)
+
+sel_tr_items_in_area (tr,min,max)
+
+r.PreventUIRefresh(-1)
+r.Undo_EndBlock('Stutter', undo)
+
+
   
 else
 
