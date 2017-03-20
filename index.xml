@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="433c2de0a392e11a77ba86ae9bbe6281ab587d69">
+<index version="1" name="me2beats Scripts" commit="89ee39d19fc1f3e87c3936bc7611e773b503d8df">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -913,6 +913,18 @@
       <version name="1.0" author="me2beats" time="2017-02-12T07:19:57Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/ee8d96437f72df8c10fda6c38cfd7055b83360d3/Tracks/me2beats_Select%20previous%20hidden%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select several tracks - Shift+Down.lua" type="script" desc="Select several tracks - Shift+Down">
+      <version name="0.9" author="me2beats" time="2017-03-20T04:49:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/89ee39d19fc1f3e87c3936bc7611e773b503d8df/Tracks/me2beats_Select%20several%20tracks%20-%20Shift+Down.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select several tracks - Shift+Up.lua" type="script" desc="Select several tracks - Shift+Up">
+      <version name="0.9" author="me2beats" time="2017-03-20T04:49:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/89ee39d19fc1f3e87c3936bc7611e773b503d8df/Tracks/me2beats_Select%20several%20tracks%20-%20Shift+Up.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select tracks from first track to selected one (but hidden tracks).lua" type="script" desc="Select tracks from first track to selected one (but hidden tracks)">
