@@ -1,5 +1,5 @@
 -- @description Create folder from selected track to track at mouse (+rename folder)
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
 --  + init
@@ -39,9 +39,7 @@ r.PreventUIRefresh(1)
 
 for i = min,max do
   local tr = r.GetTrack(0,i-1)
-  if r.GetMediaTrackInfo_Value(tr, 'B_SHOWINMIXER') == 1 or r.GetMediaTrackInfo_Value(tr, 'B_SHOWINTCP') == 1 then
-    r.SetTrackSelected(tr,1)
-  end
+  r.SetTrackSelected(tr,1)
 end
 
 
