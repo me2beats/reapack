@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="137278ab7c9fcc0e7819fb58e63d2b28c548b4ce">
+<index version="1" name="me2beats Scripts" commit="e8aaa3e5a25729d03916ec4ceec01e45524e862f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -764,10 +764,10 @@
     </reapack>
   </category>
   <category name="Tracks">
-    <reapack name="me2beats_Auto select track with focused FX 1.2 (defer).lua" type="script" desc="Auto select track with focused FX 1.2 (defer)">
-      <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
+    <reapack name="me2beats_Auto select track with focused FX (defer).lua" type="script" desc="Auto select track with focused FX 1.2 (defer)">
+      <version name="1.2" author="me2beats" time="2017-03-24T07:21:13Z">
         <changelog><![CDATA[+ init]]></changelog>
-        <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Auto%20select%20track%20with%20focused%20FX%201.2%20(defer).lua</source>
+        <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Auto%20select%20track%20with%20focused%20FX%20(defer).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Close focused track fx window.lua" type="script" desc="Close focused track fx window">
@@ -776,10 +776,28 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Close%20focused%20track%20fx%20window.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Create folder from selected track to track at mouse (+rename folder).lua" type="script" desc="Create folder from selected track to track at mouse (+rename folder)">
+      <version name="1.0" author="me2beats" time="2017-03-24T07:21:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Create%20folder%20from%20selected%20track%20to%20track%20at%20mouse%20(+rename%20folder).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Create folder from selected tracks (+rename folder).lua" type="script" desc="Create folder from selected tracks (+rename folder)">
+      <version name="1.0" author="me2beats" time="2017-03-24T07:21:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Create%20folder%20from%20selected%20tracks%20(+rename%20folder).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Create folder from selected tracks.lua" type="script" desc="Create folder from selected tracks">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Create%20folder%20from%20selected%20tracks.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-03-24T07:21:13Z">
+        <changelog><![CDATA[+ PreventUIRefresh fixed
++ Set folder track as last touched track
++ Vertical scroll selected tracks into view]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Create%20folder%20from%20selected%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Delete track under mouse.lua" type="script" desc="Delete track under mouse">
@@ -984,6 +1002,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20tracks%20from%20selected%20track%20to%20last%20one.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select tracks from selected track to track at mouse.lua" type="script" desc="Select tracks from selected track to track at mouse">
+      <version name="1.0" author="me2beats" time="2017-03-24T07:21:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Select%20tracks%20from%20selected%20track%20to%20track%20at%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select tracks with no items (except tracks with sends and hidden tracks).lua" type="script" desc="Select tracks with no items (except tracks with sends and hidden tracks)">
