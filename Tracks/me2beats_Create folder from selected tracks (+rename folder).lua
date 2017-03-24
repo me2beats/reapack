@@ -1,10 +1,8 @@
--- @description Create folder from selected tracks
--- @version 1.1
+-- @description Create folder from selected tracks (+rename folder)
+-- @version 1.0
 -- @author me2beats
 -- @changelog
---  + PreventUIRefresh fixed
---  + Set folder track as last touched track
---  + Vertical scroll selected tracks into view
+--  + init
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -40,11 +38,11 @@ tr = r.GetTrack(0, tr_num-1)
 r.SetMediaTrackInfo_Value(tr, 'I_FOLDERDEPTH', 1)
 r.SetMediaTrackInfo_Value(last_tr, 'I_FOLDERDEPTH', last_sel_dep-1)
 r.SetOnlyTrackSelected(tr)
-
 r.Main_OnCommand(40914,0) -- Track: Set first selected track as last touched track
 
 r.PreventUIRefresh(-1)
 
 r.Main_OnCommand(40913,0) -- Track: Vertical scroll selected tracks into view
+r.Main_OnCommand(40696,0) -- Track: Rename last touched track
 
 r.Undo_EndBlock('Create folder from selected tracks', -1)

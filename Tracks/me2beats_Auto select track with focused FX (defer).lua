@@ -1,5 +1,5 @@
 -- @description Auto select track with focused FX 1.2 (defer)
--- @version 1.0
+-- @version 1.2
 -- @author me2beats
 -- @changelog
 --  + init
