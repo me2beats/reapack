@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="e8aaa3e5a25729d03916ec4ceec01e45524e862f">
+<index version="1" name="me2beats Scripts" commit="c6ca9b66a5a717d4495a19ec113687fb16cda222">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -736,6 +736,24 @@
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Toggle%20select%20chord%20under%20mouse.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Trim position of note at mouse (NO UNDO).lua" type="script" desc="Trim position of note at mouse (NO UNDO)">
+      <version name="1.0" author="me2beats" time="2017-03-24T10:54:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse%20(NO%20UNDO).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim position of note at mouse.lua" type="script" desc="Trim position of note at mouse">
+      <version name="1.0" author="me2beats" time="2017-03-24T10:54:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Trim positions of notes at mouse (defer).lua" type="script" desc="Trim positions of notes at mouse (defer)">
+      <version name="1.0" author="me2beats" time="2017-03-24T10:54:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20positions%20of%20notes%20at%20mouse%20(defer).lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Projects">
     <reapack name="me2beats_Go to first project tab.lua" type="script" desc="Go to first project tab">
@@ -780,6 +798,10 @@
       <version name="1.0" author="me2beats" time="2017-03-24T07:21:13Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/e8aaa3e5a25729d03916ec4ceec01e45524e862f/Tracks/me2beats_Create%20folder%20from%20selected%20track%20to%20track%20at%20mouse%20(+rename%20folder).lua</source>
+      </version>
+      <version name="1.01" author="me2beats" time="2017-03-24T10:54:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/Tracks/me2beats_Create%20folder%20from%20selected%20track%20to%20track%20at%20mouse%20(+rename%20folder).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Create folder from selected tracks (+rename folder).lua" type="script" desc="Create folder from selected tracks (+rename folder)">
