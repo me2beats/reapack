@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="a23d1661fb5f82f2e00f33455cc0910dc8ad377b">
+<index version="1" name="me2beats Scripts" commit="3a96774703bf616eb76ba138d18d9675d72aa36c">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -982,6 +982,10 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20only%20last%20track.lua</source>
+      </version>
+      <version name="1.01" author="me2beats" time="2017-03-25T09:42:08Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/3a96774703bf616eb76ba138d18d9675d72aa36c/Tracks/me2beats_Select%20only%20last%20track.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only lowest track with selected item.lua" type="script" desc="Select only lowest track with selected item">
