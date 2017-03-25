@@ -1,3 +1,9 @@
+-- @description Save selected tracks
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 local r = reaper
 
 sel_tracks_str = ''

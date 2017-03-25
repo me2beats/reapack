@@ -1,3 +1,9 @@
+-- @description Restore selected tracks
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
 local function UnselectAllTracks()
