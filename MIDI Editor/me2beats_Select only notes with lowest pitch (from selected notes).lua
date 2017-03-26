@@ -1,5 +1,5 @@
 -- @description Select only notes with lowest pitch (from selected notes)
--- @version 1.1
+-- @version 1.11
 -- @author me2beats
 -- @changelog
 --  + smth
