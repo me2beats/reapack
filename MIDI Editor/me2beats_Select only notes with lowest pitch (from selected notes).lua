@@ -1,5 +1,5 @@
 -- @description Select only notes with lowest pitch (from selected notes)
--- @version 1.01
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + smth fixed
@@ -14,23 +14,21 @@ if notes == 0 then bla() return end
 
 local min_pitch = 128
 
-for i = 0, 10000 do
-  local sel_idx = r.MIDI_EnumSelNotes(take, i)
-  if sel_idx == -1 then break end
-  local _, _, _, _, _, _, pitch = r.MIDI_GetNote(take, sel_idx)
-  min_pitch = math.min(min_pitch,pitch)
+for i = 0, notes - 1 do
+  local _, sel, _, _, _, _, pitch = r.MIDI_GetNote(take, i)
+  if sel then 
+    min_pitch = math.min(min_pitch,pitch)
+  end
 end
 
 if min_pitch == 128 then bla() return end
 
 local notes_tb = {}
 
-for i = 0, 10000 do
-  local sel_idx = r.MIDI_EnumSelNotes(take, i)
-  if sel_idx == -1 then break end
-  local _, _, _, _, _, _, pitch = r.MIDI_GetNote(take, sel_idx)
-  if pitch == min_pitch then
-    notes_tb[#notes_tb+1] = sel_idx
+for i = 0, notes - 1 do
+  local _, sel, muted, start_note, end_note, chan, pitch, vel = r.MIDI_GetNote(take, i)
+  if sel and min_pitch == pitch then 
+    notes_tb[#notes_tb+1] = i
   end
 end
 
