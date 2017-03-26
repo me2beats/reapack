@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="357a8722c7125a3d7eb4d16364181bdd9fdd5e39">
+<index version="1" name="me2beats Scripts" commit="ea67aab50876c46f0db071cde52aa92a9dbd8611">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -728,6 +728,10 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
+      </version>
+      <version name="1.01" author="me2beats" time="2017-03-26T12:27:33Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/ea67aab50876c46f0db071cde52aa92a9dbd8611/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only odd notes.lua" type="script" desc="Select only odd notes">
