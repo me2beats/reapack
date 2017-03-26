@@ -2,7 +2,7 @@
 -- @version 1.1
 -- @author me2beats
 -- @changelog
---  + smth fixed
+--  + smth fixed.
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
