@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="488221982f3556d3252ef38d9c55f1f9429ea3c4">
+<index version="1" name="me2beats Scripts" commit="357a8722c7125a3d7eb4d16364181bdd9fdd5e39">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -982,6 +982,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20tracks%20with%20hardware%20outputs.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select last track in folder.lua" type="script" desc="Select last track in folder">
+      <version name="1.0" author="me2beats" time="2017-03-26T09:24:56Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/357a8722c7125a3d7eb4d16364181bdd9fdd5e39/Tracks/me2beats_Select%20last%20track%20in%20folder.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select next hidden track.lua" type="script" desc="Select next hidden track">
