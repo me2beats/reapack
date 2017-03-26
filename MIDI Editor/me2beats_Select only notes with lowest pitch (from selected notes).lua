@@ -2,7 +2,7 @@
 -- @version 1.1
 -- @author me2beats
 -- @changelog
---  + smth fixed.
+--  + smth
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -40,4 +40,4 @@ for i = 1, #notes_tb do
   r.MIDI_SetNote(take, notes_tb[i], 1, nil,nil,nil,nil,nil,nil)
 end
 
-r.PreventUIRefresh(-1); r.Undo_EndBlock('Select only notes with lowest pitch', -1)
+r.PreventUIRefresh(-1); r.Undo_EndBlock('Select notes with lowest pitch', -1)
