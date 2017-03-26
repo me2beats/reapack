@@ -34,7 +34,6 @@ end
 
 r.Undo_BeginBlock(); r.PreventUIRefresh(1)
 
-
 r.MIDIEditor_LastFocused_OnCommand(40214, 0) -- unselect all notes
 
 for i = 1, #notes_tb do
