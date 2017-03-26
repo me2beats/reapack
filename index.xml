@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="10a5ebe1f0091006c50c3a1fa0611ff9895518cd">
+<index version="1" name="me2beats Scripts" commit="1f92dec960b8fe57922c8c5def51b62f7a671cf8">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -738,6 +738,10 @@
       <version name="1.0" author="me2beats" time="2017-03-26T21:37:56Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/10a5ebe1f0091006c50c3a1fa0611ff9895518cd/MIDI%20Editor/me2beats_Select%20only%20notes%20with%20lowest%20pitch%20(from%20selected%20notes).lua</source>
+      </version>
+      <version name="1.01" author="me2beats" time="2017-03-26T21:49:12Z">
+        <changelog><![CDATA[+ smth fixed]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/1f92dec960b8fe57922c8c5def51b62f7a671cf8/MIDI%20Editor/me2beats_Select%20only%20notes%20with%20lowest%20pitch%20(from%20selected%20notes).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only odd notes.lua" type="script" desc="Select only odd notes">
