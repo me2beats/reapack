@@ -1,8 +1,8 @@
 -- @description Select only notes with lowest pitch (from selected notes)
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
---  + init
+--  + smth fixed
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -14,7 +14,7 @@ if notes == 0 then bla() return end
 
 local min_pitch = 128
 
-for i = 0, 100 do
+for i = 0, 10000 do
   local sel_idx = r.MIDI_EnumSelNotes(take, i)
   if sel_idx == -1 then break end
   local _, _, _, _, _, _, pitch = r.MIDI_GetNote(take, sel_idx)
@@ -25,7 +25,7 @@ if min_pitch == 128 then bla() return end
 
 local notes_tb = {}
 
-for i = 0, 100 do
+for i = 0, 10000 do
   local sel_idx = r.MIDI_EnumSelNotes(take, i)
   if sel_idx == -1 then break end
   local _, _, _, _, _, _, pitch = r.MIDI_GetNote(take, sel_idx)
