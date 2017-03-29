@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="475c69c1826708e4576834bf5bdc7f8bbdd54f05">
+<index version="1" name="me2beats Scripts" commit="42e8aab059b36589d1fc488c65bcb4e835ecfd44">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -724,6 +724,12 @@
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Reverse%20horizontally%202%20selected%20notes.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select note near mouse (add to selection).lua" type="script" desc="Select note near mouse (add to selection)">
+      <version name="1.0" author="me2beats" time="2017-03-29T23:22:14Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/42e8aab059b36589d1fc488c65bcb4e835ecfd44/MIDI%20Editor/me2beats_Select%20note%20near%20mouse%20(add%20to%20selection).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select only chord under mouse.lua" type="script" desc="Select only chord under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -734,6 +740,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20even%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only note near mouse.lua" type="script" desc="Select only note near mouse">
+      <version name="1.0" author="me2beats" time="2017-03-29T23:22:14Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/42e8aab059b36589d1fc488c65bcb4e835ecfd44/MIDI%20Editor/me2beats_Select%20only%20note%20near%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only note under mouse.lua" type="script" desc="Select only note under mouse">
