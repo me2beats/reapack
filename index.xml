@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="98c8d53cd40defff22fa09e75e909deb9b78d971">
+<index version="1" name="me2beats Scripts" commit="5fd95e687e01db5420097fab1f2d03c00c8c3885">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -756,6 +756,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20odd%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set notes length to length of note under mouse.lua" type="script" desc="Set notes length to length of note under mouse">
+      <version name="1.0" author="me2beats" time="2017-03-29T18:45:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/5fd95e687e01db5420097fab1f2d03c00c8c3885/MIDI%20Editor/me2beats_Set%20notes%20length%20to%20length%20of%20note%20under%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Solo track with active midi editor.lua" type="script" desc="Solo track with active midi editor">
