@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="65a1615b943f7cf07e9e41e13cd4285a0f76d269">
+<index version="1" name="me2beats Scripts" commit="98c8d53cd40defff22fa09e75e909deb9b78d971">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -199,6 +199,12 @@
       <version name="1.0" author="me2beats" time="2017-03-25T10:39:29Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/298949b6f7316ee3c772e20f2672326586b87ef8/Items/me2beats_Match%20selected%20items%20tempo%20to%20project%20tempo.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to center of selected item.lua" type="script" desc="Move cursor to center of selected item">
+      <version name="1.0" author="me2beats" time="2017-03-29T15:49:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/98c8d53cd40defff22fa09e75e909deb9b78d971/Items/me2beats_Move%20cursor%20to%20center%20of%20selected%20item.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move item content left one grid unit.lua" type="script" desc="Move item content left one grid unit">
