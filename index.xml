@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="a9dd03c00585eb445c296bac3092c9d05ea9215b">
+<index version="1" name="me2beats Scripts" commit="65a1615b943f7cf07e9e41e13cd4285a0f76d269">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -586,6 +586,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Add%20marker%20with%20offset.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Copy markers in time selection to cursor (relative to time selection start).lua" type="script" desc="Copy markers in time selection to cursor (relative to time selection start)">
+      <version name="1.0" author="me2beats" time="2017-03-29T14:31:39Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/65a1615b943f7cf07e9e41e13cd4285a0f76d269/Markers%20and%20regions/me2beats_Copy%20markers%20in%20time%20selection%20to%20cursor%20(relative%20to%20time%20selection%20start).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Copy selected regions to cursor (with contents, move later items).lua" type="script" desc="Copy selected regions to cursor (with contents, move later items)">
