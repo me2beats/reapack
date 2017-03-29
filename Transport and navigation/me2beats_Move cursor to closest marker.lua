@@ -18,8 +18,8 @@ local min_pos = 10000
 for i = 0, projects_markers-1 do
   local _, reg, m_pos = r.EnumProjectMarkers3(0, i)
   if not reg then
-    if min_pos > math.min(math.abs(cur-m_pos)) then 
-      min_pos = math.min(math.abs(cur-m_pos))
+    if min_pos > math.abs(cur-m_pos) then 
+      min_pos = math.abs(cur-m_pos)
       cur_ = m_pos
     end
   end
