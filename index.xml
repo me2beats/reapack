@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="4c9962c6f603e3283ba44cc54ef2d164e4928335">
+<index version="1" name="me2beats Scripts" commit="d370360986612f994f26893713ab2fd61df32e3e">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -35,6 +35,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Paste%20envelopes%20to%20active%20takes%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Show selected envelope FX.lua" type="script" desc="Show selected envelope FX">
+      <version name="1.0" author="me2beats" time="2017-03-30T22:34:14Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d370360986612f994f26893713ab2fd61df32e3e/Envelopes/me2beats_Show%20selected%20envelope%20FX.lua</source>
       </version>
     </reapack>
   </category>
