@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="012749fd594d22ab9ca3ca61602ec71839569dad">
+<index version="1" name="me2beats Scripts" commit="529b22618fd778d1cb1bf7d10d1cddb6d5548ca6">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -908,6 +908,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Delete%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete tracks (don't delete unselected children).lua" type="script" desc="Delete tracks (don't delete unselected children)">
+      <version name="1.0" author="me2beats" time="2017-03-30T23:25:22Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/529b22618fd778d1cb1bf7d10d1cddb6d5548ca6/Tracks/me2beats_Delete%20tracks%20(don't%20delete%20unselected%20children).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate tracks without envelopes and items.lua" type="script" desc="Duplicate tracks without envelopes and items">
