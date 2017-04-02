@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="157396cef442e99af9c9c5eb463d563735b219c4">
+<index version="1" name="me2beats Scripts" commit="51c635a0fd86272fc0c7dbdf7f0e99a37feb87e5">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1382,6 +1382,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Stop%20all%20projects.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle zoom to loop selection.lua" type="script" desc="Toggle zoom to loop selection">
+      <version name="1.0" author="me2beats" time="2017-04-02T00:35:27Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/51c635a0fd86272fc0c7dbdf7f0e99a37feb87e5/Transport%20and%20navigation/me2beats_Toggle%20zoom%20to%20loop%20selection.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Vertical zoom to project.lua" type="script" desc="Vertical zoom to project">
