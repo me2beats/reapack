@@ -1,5 +1,5 @@
 -- @description Copy FX of item under mouse to selected items (active takes)
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -26,7 +26,17 @@ local function get_active_take_fx_str(item)
   local _, chunk = r.GetItemStateChunk(item, '', 0)
   if not chunk:match'\nTAKE SEL' then
     local take_fx_ = chunk:match'\nNAME .-\n(<TAKEFX.-\nWAK .->.-)\nNAME '
-    if not take_fx_ then take_fx = 0 return take_fx end
+    if not take_fx_ then
+    
+      local takes = r.GetMediaItemNumTakes(item)
+      if takes == 1 then
+        take_fx = chunk:match'(<TAKEFX.-\nWAK .->)\n'
+        return take_fx
+      end
+    else  
+      take_fx = 0 return take_fx
+    end
+
     if take_fx_:match'\nNAME ' then take_fx = 0 else
       take_fx = chunk:match'(<TAKEFX.-\nWAK .->).-\nNAME '
     end
@@ -39,6 +49,7 @@ end
 
 local mouse_it = r.BR_ItemAtMouseCursor()
 if not mouse_it then bla() return end
+
 local take = r.GetActiveTake(mouse_it)
 if not take then return end
 
@@ -46,6 +57,7 @@ if not take then return end
 local fx = get_active_take_fx_str(mouse_it)
 
 if fx == 0 then bla() return end
+
 
 fx = take_fx..'\n'
 
