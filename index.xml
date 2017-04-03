@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="b5342d9b09f99af25234fe4a8901bc9ded2589a4">
+<index version="1" name="me2beats Scripts" commit="44196dbb045a059c0122d36a64b6dd09dcb9bc21">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -56,11 +56,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Add%20fx%20by%20name%20to%20selected%20track.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-03T16:41:51Z">
+        <changelog><![CDATA[+ multiple fx]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/44196dbb045a059c0122d36a64b6dd09dcb9bc21/FX/me2beats_Add%20fx%20by%20name%20to%20selected%20track.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Add fx by name to track under mouse.lua" type="script" desc="Add fx by name to track under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/FX/me2beats_Add%20fx%20by%20name%20to%20track%20under%20mouse.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-04-03T16:41:51Z">
+        <changelog><![CDATA[+ multiple fx]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/44196dbb045a059c0122d36a64b6dd09dcb9bc21/FX/me2beats_Add%20fx%20by%20name%20to%20track%20under%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Close last touched floating FX window.lua" type="script" desc="Close last touched floating FX window">
