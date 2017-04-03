@@ -1,15 +1,24 @@
 -- @description Add fx by name to track under mouse
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
---  + init
+--  + multiple fx
 
-function nothing() end
+local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
-track = reaper.BR_TrackAtMouseCursor()
-if track then
-  reaper.Undo_BeginBlock()
-  retval, fx_name = reaper.GetUserInputs("Add FX to track by name", 1, "FX name:", "")
-  reaper.TrackFX_AddByName(track, fx_name, 0, -1)
-  reaper.Undo_EndBlock('add fx by name to track under mouse', -1)
-else reaper.defer(nothing) end
+local track = r.BR_TrackAtMouseCursor()
+if not  track then bla() return end
+
+local retval, fx_name = r.GetUserInputs("Add FX to track by name", 1, "FX name:", "")
+
+if not retval then bla() return end
+
+r.Undo_BeginBlock()
+
+if not fx_name:match';' then r.TrackFX_AddByName(track, fx_name, 0, -1)
+else
+  for name in fx_name:gmatch'(.-);' do r.TrackFX_AddByName(track, name, 0, -1) end
+  if fx_name:sub(-1) ~= ';' then r.TrackFX_AddByName(track, fx_name:match'.*;(.*)', 0, -1) end
+end
+
+r.Undo_EndBlock('Add fx by name to track under mouse', -1)
