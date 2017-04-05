@@ -1,5 +1,5 @@
 -- @description Play-stop and record off
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
 --  + undo off
