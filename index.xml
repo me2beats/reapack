@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="6c1c50c8932a74ade8b6f3e59444dbd08bcd8441">
+<index version="1" name="me2beats Scripts" commit="216f938634daafc735d9a9b503fc67883fb8236a">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1428,6 +1428,10 @@
       <version name="1.0" author="me2beats" time="2017-04-05T15:04:23Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/c9d95ba7623c1b53d2c0187decaac874c6995aee/Transport%20and%20navigation/me2beats_Record.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-04-05T23:03:15Z">
+        <changelog><![CDATA[+ fix]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/216f938634daafc735d9a9b503fc67883fb8236a/Transport%20and%20navigation/me2beats_Record.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Set project bpm according to selected take name bpm.lua" type="script" desc="Set project bpm according to selected take name bpm">
