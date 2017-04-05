@@ -2,7 +2,7 @@
 -- @version 1.0
 -- @author me2beats
 -- @changelog
---  + init
+--  + undo off
 
 local r = reaper
 
@@ -31,4 +31,4 @@ else
   r.Main_OnCommand(40044,0) -- Transport: Play/stop
 end
 
-r.PreventUIRefresh(-1) r.Undo_EndBlock('Play/stop and recoff', -1)
+r.PreventUIRefresh(-1) r.Undo_EndBlock('Play/stop and recoff', 2)
