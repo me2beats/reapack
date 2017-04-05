@@ -1,8 +1,8 @@
 -- @description Play-stop and record off
--- @version 1.01
+-- @version 1.1
 -- @author me2beats
 -- @changelog
---  + undo off
+--  fix
 
 local r = reaper
 
@@ -20,7 +20,7 @@ if play_st == 4 or play_st == 5  then -- (record)
     local takes= r.GetMediaItemNumTakes(item)
   
     for j = 0, takes-1 do
-      local take = r.GetActiveTake(item)
+      local take = r.GetTake(item,j)
   
       if r.TakeIsMIDI(take) then
         r.MIDI_SetNote(take, 1, 0, nil, nil, nil, nil, nil, nil) -- unselect first note
