@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="71128deae4e2eace17f032c5ff05b9b67c5ea770">
+<index version="1" name="me2beats Scripts" commit="ab0bb88e129483adc417dae94c110f10b931c47e">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -560,6 +560,12 @@
       <version name="1.0" author="me2beats" time="2017-03-25T08:35:28Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/ad13d2377291553915a4f43d24601f7774a4b51d/Items/me2beats_Toggle%20mute%20for%20muted%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle open inline editors of item at mouse.lua" type="script" desc="Toggle open inline editors of item at mouse">
+      <version name="1.0" author="me2beats" time="2017-04-06T01:52:56Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ab0bb88e129483adc417dae94c110f10b931c47e/Items/me2beats_Toggle%20open%20inline%20editors%20of%20item%20at%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
