@@ -1,5 +1,5 @@
 -- @description Record
--- @version 1.1
+-- @version 1.11
 -- @author me2beats
 -- @changelog
 --  + fix
@@ -22,9 +22,10 @@ if play_st == 4 or play_st == 5  then -- (record)
 
     for j = 0, takes-1 do
       local take = r.GetTake(item,j)
-  
-      if r.TakeIsMIDI(take) then
-        r.MIDI_SetNote(take, 1, 0, nil, nil, nil, nil, nil, nil) -- unselect first note
+      if take then
+        if r.TakeIsMIDI(take) then
+          r.MIDI_SetNote(take, 1, 0, nil, nil, nil, nil, nil, nil) -- unselect first note
+        end
       end
     end
   end
