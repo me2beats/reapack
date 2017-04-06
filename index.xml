@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="dc72e81425ac09a8fcc17ce0fe3e3412b8b6fba0">
+<index version="1" name="me2beats Scripts" commit="71128deae4e2eace17f032c5ff05b9b67c5ea770">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1419,6 +1419,10 @@
         <changelog><![CDATA[fix]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/dc72e81425ac09a8fcc17ce0fe3e3412b8b6fba0/Transport%20and%20navigation/me2beats_Play-stop%20and%20record%20off.lua</source>
       </version>
+      <version name="1.11" author="me2beats" time="2017-04-06T01:11:52Z">
+        <changelog><![CDATA[+ fix]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/71128deae4e2eace17f032c5ff05b9b67c5ea770/Transport%20and%20navigation/me2beats_Play-stop%20and%20record%20off.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Record.lua" type="script" desc="Record">
       <version name="1.0" author="me2beats" time="2017-04-05T15:04:23Z">
@@ -1428,6 +1432,10 @@
       <version name="1.1" author="me2beats" time="2017-04-05T23:03:15Z">
         <changelog><![CDATA[+ fix]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/216f938634daafc735d9a9b503fc67883fb8236a/Transport%20and%20navigation/me2beats_Record.lua</source>
+      </version>
+      <version name="1.11" author="me2beats" time="2017-04-06T01:11:52Z">
+        <changelog><![CDATA[+ fix]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/71128deae4e2eace17f032c5ff05b9b67c5ea770/Transport%20and%20navigation/me2beats_Record.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Set project bpm according to selected take name bpm.lua" type="script" desc="Set project bpm according to selected take name bpm">
