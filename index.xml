@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="ab0bb88e129483adc417dae94c110f10b931c47e">
+<index version="1" name="me2beats Scripts" commit="0eefbce5daafa9751902ea6f5ebde0d458cf2bb3">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -187,6 +187,12 @@
       <version name="1.0" author="me2beats" time="2017-04-03T14:56:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/b5342d9b09f99af25234fe4a8901bc9ded2589a4/Items/me2beats_Duplicate%20selected%20area%20of%20items%20(replace%20area).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate selected area of items (replace area, use loop selection).lua" type="script" desc="Duplicate selected area of items (replace area, use loop selection)">
+      <version name="1.0" author="me2beats" time="2017-04-07T01:24:43Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/0eefbce5daafa9751902ea6f5ebde0d458cf2bb3/Items/me2beats_Duplicate%20selected%20area%20of%20items%20(replace%20area,%20use%20loop%20selection).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate selected items to selected track.lua" type="script" desc="Duplicate selected items to selected track">
