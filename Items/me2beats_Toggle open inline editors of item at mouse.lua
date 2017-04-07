@@ -1,5 +1,5 @@
 -- @description Toggle open inline editors of item at mouse
--- @version 1.0
+-- @version 1.01
 -- @author me2beats
 -- @changelog
 --  + init
@@ -41,4 +41,4 @@ else
 end
 
 RestoreSelItems()
-r.PreventUIRefresh(-1) r.Undo_EndBlock('Toggle open item inline editors', -1)
+r.PreventUIRefresh(-1) r.Undo_EndBlock('Toggle open item inline editors', 2)
