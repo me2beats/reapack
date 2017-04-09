@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="294e53efeb9a253017bb788a8a5a5b4200294f97">
+<index version="1" name="me2beats Scripts" commit="4db77d01c4e7003a56da8680197f37787bd088c7">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -384,10 +384,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20selected%20items%20envelopes.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select item near mouse.lua" type="script" desc="Select item near mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Select%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select only even items.lua" type="script" desc="Select only even items">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Select%20only%20even%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only item near mouse.lua" type="script" desc="Select only item near mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Select%20only%20item%20near%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only odd items.lua" type="script" desc="Select only odd items">
@@ -584,6 +596,18 @@
         <source main="main">https://github.com/me2beats/reapack/raw/294e53efeb9a253017bb788a8a5a5b4200294f97/Items/me2beats_Toggle%20open%20items%20inline%20editors.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Toggle select item near mouse.lua" type="script" desc="Toggle select item near mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Toggle%20select%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle select only item near mouse.lua" type="script" desc="Toggle select only item near mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Toggle%20select%20only%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Transpose audio items or midi items notes.lua" type="script" desc="Transpose audio items or midi items notes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -662,6 +686,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Trim%20start%20of%20selected%20item%20to%20start%20of%20time%20selection.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Unselect item near mouse.lua" type="script" desc="Unselect item near mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Unselect%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Markers and regions">
     <reapack name="me2beats_Add marker with offset.lua" type="script" desc="Add marker with offset">
@@ -728,6 +758,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Markers%20and%20regions/me2beats_Select%20region%20at%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select region at mouse.lua" type="script" desc="Select region at mouse">
+      <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Markers%20and%20regions/me2beats_Select%20region%20at%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select time from the first region to last region.lua" type="script" desc="Select time from the first region to last region">
