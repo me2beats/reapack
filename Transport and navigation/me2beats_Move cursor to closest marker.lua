@@ -1,8 +1,8 @@
 -- @description Move cursor to closest marker
--- @version 1.0
+-- @version 1.02
 -- @author me2beats
 -- @changelog
---  + init
+--  undo off
 
 local move_view = 1
 
@@ -29,4 +29,4 @@ if not cur_ or cur == cur_ then bla() return end
 
 r.Undo_BeginBlock()
 r.SetEditCurPos2(0, cur_, move_view, 0)
-r.Undo_EndBlock('Move cursor to closest marker', -1)
+r.Undo_EndBlock('Move cursor to closest marker', 2)
