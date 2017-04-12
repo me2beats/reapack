@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="701e7d250526d17472dfc4cafd7b2394c09c39b9">
+<index version="1" name="me2beats Scripts" commit="990f9aa35c59c78a380f7ed40dbd3dc45162347d">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1062,6 +1062,12 @@
       <version name="1.0" author="me2beats" time="2017-03-25T17:13:01Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/99b36d376168767790c2c6ff9d71d23056c1f489/Tracks/me2beats_Insert%20and%20select%20track%20after%20selected%20track%20or%20folder.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Load note names from file to selected tracks.lua" type="script" desc="Load note names from file to selected tracks">
+      <version name="1.0" author="me2beats" time="2017-04-12T21:26:56Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/990f9aa35c59c78a380f7ed40dbd3dc45162347d/Tracks/me2beats_Load%20note%20names%20from%20file%20to%20selected%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Load note names to selected tracks.lua" type="script" desc="Load note names to selected tracks">
