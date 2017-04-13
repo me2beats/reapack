@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="990f9aa35c59c78a380f7ed40dbd3dc45162347d">
+<index version="1" name="me2beats Scripts" commit="97639e4bdc704a4cc1281b34e3d2375d4a87540f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1026,6 +1026,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Duplicate%20tracks%20without%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Duplicate tracks.lua" type="script" desc="Duplicate tracks">
+      <version name="1.0" author="me2beats" time="2017-04-13T22:11:11Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/97639e4bdc704a4cc1281b34e3d2375d4a87540f/Tracks/me2beats_Duplicate%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Go to highest track with selected item.lua" type="script" desc="Go to highest track with selected item">
