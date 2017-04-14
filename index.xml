@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="3579884609c9f50968634174220003be002ebaa2">
+<index version="1" name="me2beats Scripts" commit="13ce8e87a429704e14d810c6af20521f2554f4d6">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -538,6 +538,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Split%20items%20with%20given%20length_2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split selected items according to first selected track items (delete gaps).lua" type="script" desc="Split selected items according to first selected track items (delete gaps)">
+      <version name="1.0" author="me2beats" time="2017-04-14T00:57:13Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/13ce8e87a429704e14d810c6af20521f2554f4d6/Items/me2beats_Split%20selected%20items%20according%20to%20first%20selected%20track%20items%20(delete%20gaps).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Split selected track items according to first selected track items (delete gaps).lua" type="script" desc="Split selected track items according to first selected track items (delete gaps)">
