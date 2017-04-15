@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="fc7c1200d28c4133e2e4773d14d422f7ee981264">
+<index version="1" name="me2beats Scripts" commit="0d100de3a4db25ef20bed15a2c905d00bd8d8f11">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -805,6 +805,10 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Adjust%20value%20for%20event%20under%20mouse%20(mousewheel).lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Adjust%20value%20for%20event%20under%20mouse%20(mousewheel).lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Auto set selected notes pitch to last touched note pitch (defer).lua" type="script" desc="Auto set selected notes pitch to last touched note pitch (defer)">
       <version name="0.9" author="me2beats" time="2017-02-17T00:08:39Z">
@@ -853,11 +857,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/42e8aab059b36589d1fc488c65bcb4e835ecfd44/MIDI%20Editor/me2beats_Select%20note%20near%20mouse%20(add%20to%20selection).lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20note%20near%20mouse%20(add%20to%20selection).lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Select only chord under mouse.lua" type="script" desc="Select only chord under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20chord%20under%20mouse.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20only%20chord%20under%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only even notes.lua" type="script" desc="Select only even notes">
@@ -871,6 +883,10 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/42e8aab059b36589d1fc488c65bcb4e835ecfd44/MIDI%20Editor/me2beats_Select%20only%20note%20near%20mouse.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20only%20note%20near%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Select only note under mouse.lua" type="script" desc="Select only note under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -881,11 +897,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/ea67aab50876c46f0db071cde52aa92a9dbd8611/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
       </version>
+      <version name="1.02" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Select only notes with lowest pitch (from selected notes).lua" type="script" desc="Select only notes with lowest pitch (from selected notes)">
       <version name="1.11" author="me2beats" time="2017-03-27T00:02:11Z">
         <changelog><![CDATA[+ smth]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/a9dd03c00585eb445c296bac3092c9d05ea9215b/MIDI%20Editor/me2beats_Select%20only%20notes%20with%20lowest%20pitch%20(from%20selected%20notes).lua</source>
+      </version>
+      <version name="1.12" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ smth]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20only%20notes%20with%20lowest%20pitch%20(from%20selected%20notes).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only odd notes.lua" type="script" desc="Select only odd notes">
@@ -909,6 +933,10 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/5fd95e687e01db5420097fab1f2d03c00c8c3885/MIDI%20Editor/me2beats_Set%20notes%20length%20to%20length%20of%20note%20under%20mouse.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Set%20notes%20length%20to%20length%20of%20note%20under%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Solo track with active midi editor.lua" type="script" desc="Solo track with active midi editor">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -921,11 +949,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Toggle%20select%20chord%20under%20mouse.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Toggle%20select%20chord%20under%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Trim position of note at mouse (NO UNDO).lua" type="script" desc="Trim position of note at mouse (NO UNDO)">
       <version name="1.0" author="me2beats" time="2017-03-24T10:54:13Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse%20(NO%20UNDO).lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse%20(NO%20UNDO).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Trim position of note at mouse.lua" type="script" desc="Trim position of note at mouse">
@@ -933,11 +969,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Trim%20position%20of%20note%20at%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Trim positions of notes at mouse (defer).lua" type="script" desc="Trim positions of notes at mouse (defer)">
       <version name="1.0" author="me2beats" time="2017-03-24T10:54:13Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/c6ca9b66a5a717d4495a19ec113687fb16cda222/MIDI%20Editor/me2beats_Trim%20positions%20of%20notes%20at%20mouse%20(defer).lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-04-15T02:54:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Trim%20positions%20of%20notes%20at%20mouse%20(defer).lua</source>
       </version>
     </reapack>
   </category>
