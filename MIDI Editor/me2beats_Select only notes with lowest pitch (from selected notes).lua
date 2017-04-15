@@ -1,5 +1,5 @@
 -- @description Select only notes with lowest pitch (from selected notes)
--- @version 1.11
+-- @version 1.12
 -- @author me2beats
 -- @changelog
 --  + smth
@@ -9,7 +9,7 @@ local r = reaper; local function nothing() end; local function bla() r.defer(not
 local take = r.MIDIEditor_GetTake(r.MIDIEditor_GetActive())
 if not take then return end
 
-local notes = r.MIDI_CountEvts(take)
+local _,notes = r.MIDI_CountEvts(take)
 if notes == 0 then bla() return end
 
 local min_pitch = 128

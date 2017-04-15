@@ -1,5 +1,5 @@
 -- @description Toggle select chord under mouse
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -7,7 +7,7 @@
 r = reaper
 take = r.MIDIEditor_GetTake(reaper.MIDIEditor_GetActive())
 if take then
-  notes = r.MIDI_CountEvts(take)
+  _,notes = r.MIDI_CountEvts(take)
   window, segment, details = r.BR_GetMouseCursorContext()
   _, noteRow = r.BR_GetMouseCursorContext_MIDI()
   if noteRow ~= -1 then

@@ -1,5 +1,5 @@
 -- @description Set notes length to length of note under mouse
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -29,7 +29,7 @@ function mouse_note_len(notes)
   return note_len
 end
 
-local notes = r.MIDI_CountEvts(take)
+local _,notes = r.MIDI_CountEvts(take)
 if notes == 0 then bla() return end
 
 local start_note_len = mouse_note_len(notes)

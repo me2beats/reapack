@@ -1,5 +1,5 @@
 -- @description Select only chord under mouse
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -9,7 +9,7 @@ local r = reaper; local function nothing() end; local function bla() r.defer(not
 take = r.MIDIEditor_GetTake(r.MIDIEditor_GetActive())
 if not take then bla() return end
 
-notes = r.MIDI_CountEvts(take)
+_,notes = r.MIDI_CountEvts(take)
 if notes == 0 then bla() return end
 
 window, segment, details = r.BR_GetMouseCursorContext()

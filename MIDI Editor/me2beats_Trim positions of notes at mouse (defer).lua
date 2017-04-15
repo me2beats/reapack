@@ -1,5 +1,5 @@
 -- @description Trim positions of notes at mouse (defer)
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -10,7 +10,7 @@ function main()
 
   take = r.MIDIEditor_GetTake(r.MIDIEditor_GetActive())
   if not take then goto cnt end
-    notes = r.MIDI_CountEvts(take)
+    _,notes = r.MIDI_CountEvts(take)
     window, segment, details = r.BR_GetMouseCursorContext()
     _,_, noteRow = r.BR_GetMouseCursorContext_MIDI()
     if noteRow == -1 then goto cnt end

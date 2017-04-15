@@ -1,5 +1,5 @@
 -- @description Select only note under mouse
--- @version 1.01
+-- @version 1.02
 -- @author me2beats
 -- @changelog
 --  + init
@@ -8,7 +8,7 @@ local r = reaper; local function nothing() end; local function bla() r.defer(not
 
 local take = r.MIDIEditor_GetTake(r.MIDIEditor_GetActive())
 if not take then bla() return end
-local notes = r.MIDI_CountEvts(take)
+local _,notes = r.MIDI_CountEvts(take)
 local window, segment, details = r.BR_GetMouseCursorContext()
 local _,_,noteRow = r.BR_GetMouseCursorContext_MIDI()
 

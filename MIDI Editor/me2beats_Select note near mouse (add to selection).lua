@@ -1,5 +1,5 @@
 -- @description Select note near mouse (add to selection)
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -37,7 +37,7 @@ function mouse_note(notes)
   return iter
 end
 
-local notes = r.MIDI_CountEvts(take)
+local _,notes = r.MIDI_CountEvts(take)
 if notes == 0 then bla() return end
 
 local note = mouse_note(notes)

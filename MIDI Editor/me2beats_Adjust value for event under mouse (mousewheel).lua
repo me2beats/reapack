@@ -1,5 +1,5 @@
 -- @description Adjust value for event under mouse (mousewheel)
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -9,7 +9,7 @@ reaper.defer(nothing)
 
 take = reaper.MIDIEditor_GetTake(reaper.MIDIEditor_GetActive())
 if take then
-  notes, ccs = reaper.MIDI_CountEvts(take)
+  _,notes, ccs = reaper.MIDI_CountEvts(take)
   window, segment, details = reaper.BR_GetMouseCursorContext()
   _, noteRow, ccLane, ccLaneVal, ccLaneId = reaper.BR_GetMouseCursorContext_MIDI()
   if noteRow ~= -1 then
