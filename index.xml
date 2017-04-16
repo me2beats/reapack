@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="0d100de3a4db25ef20bed15a2c905d00bd8d8f11">
+<index version="1" name="me2beats Scripts" commit="fa9082ae5013d5c4df97bab5f17773b5a38e0805">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1146,6 +1146,12 @@
       <version name="1.0" author="me2beats" time="2017-04-12T21:13:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/701e7d250526d17472dfc4cafd7b2394c09c39b9/Tracks/me2beats_Load%20note%20names%20to%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move items to new tracks (duplicate tracks).lua" type="script" desc="Move items to new tracks (duplicate tracks)">
+      <version name="1.0" author="me2beats" time="2017-04-16T11:06:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fa9082ae5013d5c4df97bab5f17773b5a38e0805/Tracks/me2beats_Move%20items%20to%20new%20tracks%20(duplicate%20tracks).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Nudge selected track volume.lua" type="script" desc="Nudge selected track volume">
