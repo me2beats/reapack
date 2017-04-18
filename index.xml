@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="428e85d726b2ee4a622badd55b7561502a720006">
+<index version="1" name="me2beats Scripts" commit="44c295ba165ac9658778647736af5adad661113b">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -868,6 +868,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Delete%20all%20notes%20in%20time%20selection.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete all notes with velocity less than X.lua" type="script" desc="Delete all notes with velocity less than X">
+      <version name="1.0" author="me2beats" time="2017-04-18T13:42:36Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/44c295ba165ac9658778647736af5adad661113b/MIDI%20Editor/me2beats_Delete%20all%20notes%20with%20velocity%20less%20than%20X.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate selected events.lua" type="script" desc="Duplicate selected events">
