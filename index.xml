@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="904bad79da5acffaac22c6cd0a3ef2f2958d0d38">
+<index version="1" name="me2beats Scripts" commit="428e85d726b2ee4a622badd55b7561502a720006">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Copy%20active%20take%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete envelope at mouse.lua" type="script" desc="Delete envelope at mouse">
+      <version name="1.0" author="me2beats" time="2017-04-18T09:48:26Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Envelopes/me2beats_Delete%20envelope%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete envelope for last touched parameter.lua" type="script" desc="Delete envelope for last touched parameter">
+      <version name="1.0" author="me2beats" time="2017-04-18T09:48:26Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Envelopes/me2beats_Delete%20envelope%20for%20last%20touched%20parameter.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Edit nearest envelope point from mouse.lua" type="script" desc="Edit nearest envelope point from mouse">
@@ -400,6 +412,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20selected%20items%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Rename takes.lua" type="script" desc="Rename takes">
+      <version name="1.0" author="me2beats" time="2017-04-18T09:48:26Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Items/me2beats_Rename%20takes.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select item near mouse.lua" type="script" desc="Select item near mouse">
