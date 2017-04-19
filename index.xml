@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="7bc2a4558e7d554cec20ab492a4627083f325c8d">
+<index version="1" name="me2beats Scripts" commit="59fe618bbb3171fdf1718cf1304ce0c90a8bebbc">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -412,6 +412,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20selected%20items%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Rename takes 2.lua" type="script" desc="Rename takes 2">
+      <version name="1.0" author="me2beats" time="2017-04-19T06:05:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/59fe618bbb3171fdf1718cf1304ce0c90a8bebbc/Items/me2beats_Rename%20takes%202.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Rename takes.lua" type="script" desc="Rename takes">
