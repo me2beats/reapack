@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="c7cf79d2f7c2995690307f368a6d00e75d4c18b5">
+<index version="1" name="me2beats Scripts" commit="0b8e3ab2ac25dd0a583eb0bf9cdada3155ffafc5">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1528,6 +1528,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20exclusive%20solo%20for%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle folder collapsed.lua" type="script" desc="Toggle folder collapsed">
+      <version name="1.0" author="me2beats" time="2017-04-23T12:15:20Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/0b8e3ab2ac25dd0a583eb0bf9cdada3155ffafc5/Tracks/me2beats_Toggle%20folder%20collapsed.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle mute for muted tracks.lua" type="script" desc="Toggle mute for muted tracks">
