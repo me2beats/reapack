@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="0b8e3ab2ac25dd0a583eb0bf9cdada3155ffafc5">
+<index version="1" name="me2beats Scripts" commit="2b4a63f1429a67518be3bf7a45e27fdecfec8a0b">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -756,6 +756,12 @@
       <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Unselect%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Unselect items less than 1%32 grid size.lua" type="script" desc="Unselect items less than 1%32 grid size">
+      <version name="1.0" author="me2beats" time="2017-04-24T00:38:50Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2b4a63f1429a67518be3bf7a45e27fdecfec8a0b/Items/me2beats_Unselect%20items%20less%20than%2012%20grid%20size.lua</source>
       </version>
     </reapack>
   </category>
