@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="2b4a63f1429a67518be3bf7a45e27fdecfec8a0b">
+<index version="1" name="me2beats Scripts" commit="fe983238cf847f324f5fee6e12f4db1ea49e7dd5">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -414,10 +414,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Pool%20active%20takes%20of%20selected%20items.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Remove even items starting from selected one.lua" type="script" desc="Remove even items starting from selected one">
+      <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fe983238cf847f324f5fee6e12f4db1ea49e7dd5/Items/me2beats_Remove%20even%20items%20starting%20from%20selected%20one.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Remove item under mouse.lua" type="script" desc="Remove item under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Items/me2beats_Remove%20item%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Remove odd items starting from selected one.lua" type="script" desc="Remove odd items starting from selected one">
+      <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fe983238cf847f324f5fee6e12f4db1ea49e7dd5/Items/me2beats_Remove%20odd%20items%20starting%20from%20selected%20one.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Remove selected items envelopes.lua" type="script" desc="Remove selected items envelopes">
@@ -438,10 +450,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Items/me2beats_Rename%20takes.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select even items starting from selected one.lua" type="script" desc="Select even items starting from selected one">
+      <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fe983238cf847f324f5fee6e12f4db1ea49e7dd5/Items/me2beats_Select%20even%20items%20starting%20from%20selected%20one.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select item near mouse.lua" type="script" desc="Select item near mouse">
       <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Select%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select odd items starting from selected one.lua" type="script" desc="Select odd items starting from selected one">
+      <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/fe983238cf847f324f5fee6e12f4db1ea49e7dd5/Items/me2beats_Select%20odd%20items%20starting%20from%20selected%20one.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only even items.lua" type="script" desc="Select only even items">
