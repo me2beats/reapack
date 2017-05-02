@@ -1,5 +1,5 @@
 -- @description Unselect items less than 1%32 grid size
--- @version 1.01
+-- @version 1.02
 -- @author me2beats
 -- @changelog
 --  + init
@@ -8,7 +8,6 @@ local r = reaper; local function nothing() end; local function bla() r.defer(not
 
 local items = r.CountSelectedMediaItems()
 if items == 0 then bla() return end
-
 
 t = {}
 
@@ -32,6 +31,5 @@ for i = 1, #t do
   r.SetMediaItemSelected(t[i],0)
   r.UpdateItemInProject(t[i])
 end
-
 
 r.PreventUIRefresh(-1) r.Undo_EndBlock('Unselect items less than 1/32 grid size', -1)
