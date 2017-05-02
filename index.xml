@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="9f0abc35402ec8bc7fc8ff09621743a6fa09efea">
+<index version="1" name="me2beats Scripts" commit="7b4f44979a1e6c9e9fafe7cd1ed9c8a9e1af3ad4">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -782,10 +782,10 @@
         <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Unselect%20item%20near%20mouse.lua</source>
       </version>
     </reapack>
-    <reapack name="me2beats_Unselect items less than 1%32 grid size.lua" type="script" desc="Unselect items less than 1%32 grid size">
-      <version name="1.0" author="me2beats" time="2017-04-24T00:38:50Z">
+    <reapack name="me2beats_Unselect items less than 1 32 grid size.lua" type="script" desc="Unselect items less than 1%32 grid size">
+      <version name="1.0" author="me2beats" time="2017-05-02T13:51:26Z">
         <changelog><![CDATA[+ init]]></changelog>
-        <source main="main">https://github.com/me2beats/reapack/raw/2b4a63f1429a67518be3bf7a45e27fdecfec8a0b/Items/me2beats_Unselect%20items%20less%20than%2012%20grid%20size.lua</source>
+        <source main="main">https://github.com/me2beats/reapack/raw/7b4f44979a1e6c9e9fafe7cd1ed9c8a9e1af3ad4/Items/me2beats_Unselect%20items%20less%20than%201%2032%20grid%20size.lua</source>
       </version>
     </reapack>
   </category>
@@ -934,6 +934,10 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Duplicate%20selected%20events.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-05-02T13:49:58Z">
+        <changelog><![CDATA[some updates]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/a86b4c95ecc928de01a133a664a59cfd0a902f6b/MIDI%20Editor/me2beats_Duplicate%20selected%20events.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Increase selected notes volume linearly 0.9.lua" type="script" desc="Increase selected notes volume linearly 0.9">
