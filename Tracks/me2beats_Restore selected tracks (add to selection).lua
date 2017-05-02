@@ -1,5 +1,5 @@
--- @description Restore selected tracks
--- @version 1.01
+-- @description Restore selected tracks (add to selection)
+-- @version 1.0
 -- @author me2beats
 -- @changelog
 --  + init
@@ -11,8 +11,6 @@ if not sel_tracks_str or sel_tracks_str == '' then bla() return end
 
 
 r.Undo_BeginBlock() r.PreventUIRefresh(1)
-
-r.Main_OnCommand(40297,0) -- unselect all tracks
 
 for guid in sel_tracks_str:gmatch'{.-}' do
   local tr = r.BR_GetMediaTrackByGUID(0, guid)
