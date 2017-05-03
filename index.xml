@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="278080ca9ad8287e036832569462cbffc1f1b7be">
+<index version="1" name="me2beats Scripts" commit="7e5ebe42b0b353d1bca3d393c6a039817fc37bdb">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1652,6 +1652,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Toggle%20mute%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle select track at mouse.lua" type="script" desc="Toggle select track at mouse">
+      <version name="1.0" author="me2beats" time="2017-05-03T15:36:20Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/7e5ebe42b0b353d1bca3d393c6a039817fc37bdb/Tracks/me2beats_Toggle%20select%20track%20at%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle solo for soloed tracks.lua" type="script" desc="Toggle solo for soloed tracks">
