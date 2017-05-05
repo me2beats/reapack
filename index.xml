@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="630d79474f87fc141dead00665719c613d663603">
+<index version="1" name="me2beats Scripts" commit="7ffca3fd6a9c70dc989324e2aa7c2a3de3f39e0e">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1094,6 +1094,18 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Solo%20track%20with%20active%20midi%20editor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split notes (select left).lua" type="script" desc="Split notes (select left)">
+      <version name="1.0" author="me2beats" time="2017-05-05T01:18:49Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7ffca3fd6a9c70dc989324e2aa7c2a3de3f39e0e/MIDI%20Editor/me2beats_Split%20notes%20(select%20left).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split notes (select right).lua" type="script" desc="Split notes (select right)">
+      <version name="1.0" author="me2beats" time="2017-05-05T01:18:49Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7ffca3fd6a9c70dc989324e2aa7c2a3de3f39e0e/MIDI%20Editor/me2beats_Split%20notes%20(select%20right).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle select chord under mouse.lua" type="script" desc="Toggle select chord under mouse">
