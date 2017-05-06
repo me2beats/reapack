@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="64693e8c02c7a6d13963baf94a60ff77ee46dc50">
+<index version="1" name="me2beats Scripts" commit="058afcafcfe40f214933a4cd00844604860e2017">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -960,6 +960,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Increase%20selected%20notes%20volume%20linearly%200.9.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move notes up or down (mousewheel).lua" type="script" desc="Move notes up or down (mousewheel)">
+      <version name="1.0" author="me2beats" time="2017-05-06T23:54:51Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/058afcafcfe40f214933a4cd00844604860e2017/MIDI%20Editor/me2beats_Move%20notes%20up%20or%20down%20(mousewheel).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Restore MIDI editor view, slot 1.lua" type="script" desc="Restore MIDI editor view, slot 1">
