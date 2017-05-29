@@ -1,5 +1,5 @@
 -- @description Set time selection to nearest markers from mouse
--- @version 1.01
+-- @version 1.02
 -- @author me2beats
 -- @changelog
 --  + init
@@ -14,10 +14,10 @@ if not mouse then bla() return end
 
 local m_start_i = r.GetLastMarkerAndCurRegion(0, mouse)
 if m_start_i == -1 then bla() return end
-local ret,_, m_start = r.EnumProjectMarkers(m_start_i)
-local ret,_, m_end = r.EnumProjectMarkers(m_start_i+1)
+local _,_, m_start = r.EnumProjectMarkers(m_start_i)
+local _,_, m_end = r.EnumProjectMarkers(m_start_i+1)
+if m_end and (m_end<m_start or m_end==m_start) then bla() return end
 
-if not m_end then bla() return end
 r.Undo_BeginBlock() r.PreventUIRefresh(1)
 r.GetSet_LoopTimeRange(1, 0, m_start, m_end, 0)
 r.PreventUIRefresh(-1) r.Undo_EndBlock('Set time selection to nearest markers from mouse', -1)
