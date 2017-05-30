@@ -1,5 +1,5 @@
 -- @description Set time selection to nearest project or tempo markers from mouse
--- @version 1.03
+-- @version 1.04
 -- @author me2beats
 -- @changelog
 --  + init
@@ -27,7 +27,7 @@ if not (m_end or t_end) then bla() return end
 local x,y
 if t_start then
   if mouse-m_start < mouse-t_start then x = m_start else x = t_start end
-  if m_end and m_end-cur < t_end-cur then y = m_end else y = t_end end
+  if m_end and m_end-mouse < t_end-mouse then y = m_end else y = t_end end
 else x = m_start y = m_end end
 if not (x or y) or x == y then bla() return end
 
