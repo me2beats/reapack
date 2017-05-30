@@ -1,5 +1,5 @@
 -- @description Set time selection to nearest markers from mouse
--- @version 1.02
+-- @version 1.03
 -- @author me2beats
 -- @changelog
 --  + init
@@ -10,7 +10,7 @@ local _, markers = r.CountProjectMarkers(); if markers<2 then bla() return end
 
 local window, segment, details = r.BR_GetMouseCursorContext()
 local mouse = r.BR_GetMouseCursorContext_Position()
-if not mouse then bla() return end
+if not mouse or mouse == -1 then bla() return end
 
 local m_start_i = r.GetLastMarkerAndCurRegion(0, mouse)
 if m_start_i == -1 then bla() return end
