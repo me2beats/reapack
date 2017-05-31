@@ -1,5 +1,5 @@
 -- @description Set time selection to nearest project or tempo markers from mouse
--- @version 1.11
+-- @version 1.12
 -- @author me2beats
 -- @changelog
 --  + init
@@ -18,6 +18,9 @@ if m_start_i ~= -1 then
   _,_, m_start = r.EnumProjectMarkers(m_start_i)
   _,_, m_end = r.EnumProjectMarkers(m_start_i+1)
   if m_end<=m_start then m_end = nil end
+else
+  _,_, m_end = r.EnumProjectMarkers(0)
+  if m_end == -1 then m_end = nil end
 end
 
 if t_start_i ~= -1 then
