@@ -1,5 +1,5 @@
 -- @description Set time selection to nearest project or tempo markers from cursor
--- @version 1.1
+-- @version 1.11
 -- @author me2beats
 -- @changelog
 --  + init
@@ -15,7 +15,7 @@ m_start_i, t_start_i = r.GetLastMarkerAndCurRegion(0, cur), r.FindTempoTimeSigMa
 if m_start_i ~= -1 then
   _,_, m_start = r.EnumProjectMarkers(m_start_i)
   _,_, m_end = r.EnumProjectMarkers(m_start_i+1)
-  if m_end<m_start then m_end = nil end
+  if m_end<=m_start then m_end = nil end
 end
 
 if t_start_i ~= -1 then
@@ -26,11 +26,11 @@ end
 
 if not ((m_start or t_start) and (m_end or t_end)) then bla() return end
 if t_start and m_start then
-  if cur-m_start < cur-t_start then x = m_start else x = t_start end
+  if cur-m_start < cur-t_start then   x = m_start else x = t_start end
 elseif t_start then x = t_start else x = m_start end
 
 if t_end and m_end then
-  if m_end-cur < t_end-cur then  y = m_end  else y = t_end  end
+  if m_end-cur < t_end-cur then y = m_end  else y = t_end  end
 elseif t_end then  y = t_end  else y = m_end  end
 
 if not (x or y) or x == y then bla() return end
