@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="307194e3873d4fcf7f3b020fc373d3a7b961e7e9">
+<index version="1" name="me2beats Scripts" commit="8ada2d7c5a463cec252f95336a65c57acb5501be">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1894,6 +1894,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Horizontal%20zoom%20to%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Master playrate - toggle between current rate and 1.lua" type="script" desc="Master playrate - toggle between current rate and 1">
+      <version name="1.0" author="me2beats" time="2017-05-31T16:30:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8ada2d7c5a463cec252f95336a65c57acb5501be/Transport%20and%20navigation/me2beats_Master%20playrate%20-%20toggle%20between%20current%20rate%20and%201.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move cursor to closest marker.lua" type="script" desc="Move cursor to closest marker">
