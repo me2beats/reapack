@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="78f1479d227eaa6e578a11cd1ba48b21ae0647f8">
+<index version="1" name="me2beats Scripts" commit="abf55f694b74b9c96de622c8c5bb84d70af9e14a">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -941,6 +941,10 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/78f1479d227eaa6e578a11cd1ba48b21ae0647f8/Markers%20and%20regions/me2beats_Set%20time%20selection%20to%20nearest%20project%20or%20tempo%20markers%20from%20cursor.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-05-31T12:51:50Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/abf55f694b74b9c96de622c8c5bb84d70af9e14a/Markers%20and%20regions/me2beats_Set%20time%20selection%20to%20nearest%20project%20or%20tempo%20markers%20from%20cursor.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Set time selection to nearest project or tempo markers from mouse.lua" type="script" desc="Set time selection to nearest project or tempo markers from mouse">
       <version name="1.0" author="me2beats" time="2017-05-29T13:49:11Z">
@@ -958,6 +962,10 @@
       <version name="1.05" author="me2beats" time="2017-05-31T08:20:27Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/78f1479d227eaa6e578a11cd1ba48b21ae0647f8/Markers%20and%20regions/me2beats_Set%20time%20selection%20to%20nearest%20project%20or%20tempo%20markers%20from%20mouse.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-05-31T12:51:50Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/abf55f694b74b9c96de622c8c5bb84d70af9e14a/Markers%20and%20regions/me2beats_Set%20time%20selection%20to%20nearest%20project%20or%20tempo%20markers%20from%20mouse.lua</source>
       </version>
     </reapack>
   </category>
