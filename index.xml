@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="2d5cefe525f655e2dd509b0abfeac7864ea6b5cd">
+<index version="1" name="me2beats Scripts" commit="324adf11acdf64d783478ff8ac58ef1e342b9126">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -928,6 +928,10 @@
       <version name="1.1" author="me2beats" time="2017-06-01T20:54:25Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/2d5cefe525f655e2dd509b0abfeac7864ea6b5cd/Markers%20and%20regions/me2beats_Remove%20tempo%20markers%20from%20time%20selection.lua</source>
+      </version>
+      <version name="1.11" author="me2beats" time="2017-06-01T20:58:39Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/324adf11acdf64d783478ff8ac58ef1e342b9126/Markers%20and%20regions/me2beats_Remove%20tempo%20markers%20from%20time%20selection.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select region at cursor (keeping current selection).lua" type="script" desc="Select region at cursor (keeping current selection)">
