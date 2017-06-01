@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="c9bfe3c543788a54049dd7723e7fb394a61cdda1">
+<index version="1" name="me2beats Scripts" commit="ed90358f52708a912233e8969ba8f44e494a496a">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1350,10 +1350,40 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Go%20to%20last%20project%20tab.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Project tabs - toggle between slots 1-2.lua" type="script" desc="Project tabs - toggle between slots 1-2">
+      <version name="1.0" author="me2beats" time="2017-06-01T16:27:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ed90358f52708a912233e8969ba8f44e494a496a/Projects/me2beats_Project%20tabs%20-%20toggle%20between%20slots%201-2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Restore saved project tab, slot 1.lua" type="script" desc="Restore saved project tab, slot 1">
+      <version name="1.0" author="me2beats" time="2017-06-01T16:27:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ed90358f52708a912233e8969ba8f44e494a496a/Projects/me2beats_Restore%20saved%20project%20tab,%20slot%201.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Restore saved project tab, slot 2.lua" type="script" desc="Restore saved project tab, slot 2">
+      <version name="1.0" author="me2beats" time="2017-06-01T16:27:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ed90358f52708a912233e8969ba8f44e494a496a/Projects/me2beats_Restore%20saved%20project%20tab,%20slot%202.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Restore saved project tab.lua" type="script" desc="Restore saved project tab">
       <version name="1.0" author="me2beats" time="2017-04-02T23:00:57Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/6c44b1d9c2bf4ee39f47d42d4b98a995d93d55d8/Projects/me2beats_Restore%20saved%20project%20tab.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Save active project tab, slot 1.lua" type="script" desc="Save active project tab, slot 1">
+      <version name="1.0" author="me2beats" time="2017-06-01T16:27:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ed90358f52708a912233e8969ba8f44e494a496a/Projects/me2beats_Save%20active%20project%20tab,%20slot%201.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Save active project tab, slot 2.lua" type="script" desc="Save active project tab, slot 2">
+      <version name="1.0" author="me2beats" time="2017-06-01T16:27:47Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ed90358f52708a912233e8969ba8f44e494a496a/Projects/me2beats_Save%20active%20project%20tab,%20slot%202.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Save active project tab.lua" type="script" desc="Save active project tab">
