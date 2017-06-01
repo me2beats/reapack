@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="b2334ff93e307bd3727e40569e8bacca2efb4279">
+<index version="1" name="me2beats Scripts" commit="c9bfe3c543788a54049dd7723e7fb394a61cdda1">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -474,6 +474,30 @@
         <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Select%20item%20near%20mouse.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select items from cursor to end of project.lua" type="script" desc="Select items from cursor to end of project">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20items%20from%20cursor%20to%20end%20of%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select items from mouse to end of project.lua" type="script" desc="Select items from mouse to end of project">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20items%20from%20mouse%20to%20end%20of%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select items from start of project to cursor.lua" type="script" desc="Select items from start of project to cursor">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20items%20from%20start%20of%20project%20to%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select items from start of project to mouse.lua" type="script" desc="Select items from start of project to mouse">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20items%20from%20start%20of%20project%20to%20mouse.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select odd items starting from selected one.lua" type="script" desc="Select odd items starting from selected one">
       <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -490,6 +514,30 @@
       <version name="1.0" author="me2beats" time="2017-04-09T04:35:41Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/4db77d01c4e7003a56da8680197f37787bd088c7/Items/me2beats_Select%20only%20item%20near%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only items from cursor to end of project.lua" type="script" desc="Select only items from cursor to end of project">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20only%20items%20from%20cursor%20to%20end%20of%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only items from mouse to end of project.lua" type="script" desc="Select only items from mouse to end of project">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20only%20items%20from%20mouse%20to%20end%20of%20project.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only items from start of project to cursor.lua" type="script" desc="Select only items from start of project to cursor">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20only%20items%20from%20start%20of%20project%20to%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only items from start of project to mouse.lua" type="script" desc="Select only items from start of project to mouse">
+      <version name="1.0" author="me2beats" time="2017-06-01T06:07:53Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c9bfe3c543788a54049dd7723e7fb394a61cdda1/Items/me2beats_Select%20only%20items%20from%20start%20of%20project%20to%20mouse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only odd items.lua" type="script" desc="Select only odd items">
