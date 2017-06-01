@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="bb60832e85a46c9b3e492b45b0ee43f645af5391">
+<index version="1" name="me2beats Scripts" commit="a6b8c49d2115c5bf10645e6b7756a3e63249fd95">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1330,6 +1330,12 @@
     </reapack>
   </category>
   <category name="Other">
+    <reapack name="me2beats_Adjust grid (mousewheel).lua" type="script" desc="Adjust grid (mousewheel)">
+      <version name="1.0" author="me2beats" time="2017-06-01T20:43:46Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/a6b8c49d2115c5bf10645e6b7756a3e63249fd95/Other/me2beats_Adjust%20grid%20(mousewheel).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Close toolbar 1.lua" type="script" desc="Close toolbar 1">
       <version name="0.5" author="me2beats" time="2017-05-31T17:13:57Z">
         <changelog><![CDATA[+ init]]></changelog>
