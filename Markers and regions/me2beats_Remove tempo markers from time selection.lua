@@ -1,5 +1,5 @@
 -- @description Remove tempo markers from time selection
--- @version 1.1
+-- @version 1.11
 -- @author me2beats
 -- @changelog
 --  + init
@@ -16,7 +16,6 @@ local _, t_start
 if not t_start_i or t_start_i == -1 then bla() return end
 _, t_start = r.GetTempoTimeSigMarker(0, t_start_i)
 if t_start < x then
-  r.MB(t_start,0,0)
   _, t_start = r.GetTempoTimeSigMarker(0, t_start_i+1)
   if t_start == 0 or t_start > y then
     bla() return
