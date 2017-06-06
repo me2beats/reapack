@@ -1,36 +1,35 @@
 -- @description Auto select track with focused FX 1.2 (defer)
--- @version 1.2
+-- @version 1.3
 -- @author me2beats
 -- @changelog
---  + init
+--  + Added prevent UI refresh; Fast responsiveness but may eat more CPU (if so - pls downgrade to 1.2)
 
 local r = reaper
+local last_trnum
 
 function main()
-  time = os.time()-init
-  if time - last_update >= 1 then 
 
-    retval, trnum = r.GetFocusedFX()
-    if retval ~= 1 then goto continue end
-    
-    if not last_trnum or last_trnum ~= trnum then
-      local tr = r.GetTrack(0,trnum-1)
-      if not tr then goto continue end
-      sel =  r.GetMediaTrackInfo_Value(tr, 'I_SELECTED')
-      if sel == 0 then
-        r.SetOnlyTrackSelected(tr)
-        r.Main_OnCommand(40914,0) -- set first selected track as last touched
-        r.SetMixerScroll(tr)
-      end
-    
-    last_trnum = trnum  
-    
+  local retval, trnum = r.GetFocusedFX()
+  if retval ~= 1 then goto continue end
+
+  if not last_trnum or last_trnum ~= trnum then
+    local tr = r.GetTrack(0,trnum-1)
+    if not tr then goto continue end
+    local sel =  r.GetMediaTrackInfo_Value(tr, 'I_SELECTED')
+    if sel == 0 then
+      r.PreventUIRefresh(1)
+      r.SetOnlyTrackSelected(tr)
+      r.Main_OnCommand(40914,0) -- set first selected track as last touched
+      r.SetMixerScroll(tr)
+      r.PreventUIRefresh(-1)
     end
-    
-    ::continue::
 
-    last_update = time
+  last_trnum = trnum  
+
   end
+
+  ::continue::
+
   r.defer(main)
 end
 
@@ -51,8 +50,6 @@ end
 
 -----------------------------------------------
 
-init = os.time()
-last_update = os.time()-init
 _, _, sec, cmd = r.get_action_context()
 SetButtonON()
 r.atexit(SetButtonOFF)
