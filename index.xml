@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="c865a6b4b51566f92fdeb72a8ee6d1a296d47862">
+<index version="1" name="me2beats Scripts" commit="d3bab8fb373ccd0c68638e1aa8bf53b87063b0df">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1470,6 +1470,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/488221982f3556d3252ef38d9c55f1f9429ea3c4/Tracks/me2beats_Auto%20solo%20for%20selected%20tracks%20(defer).lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Auto solo for selected tracks (defer, obey track grouping).lua" type="script" desc="Auto solo for selected tracks (defer, obey track grouping)">
+      <version name="1.0" author="me2beats" time="2017-06-06T19:59:15Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d3bab8fb373ccd0c68638e1aa8bf53b87063b0df/Tracks/me2beats_Auto%20solo%20for%20selected%20tracks%20(defer,%20obey%20track%20grouping).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Close focused track fx window.lua" type="script" desc="Close focused track fx window">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -1738,6 +1744,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Select%20all%20tracks%20but%20children.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select all tracks in selected track groups.lua" type="script" desc="Select all tracks in selected track groups">
+      <version name="1.0" author="me2beats" time="2017-06-06T19:59:15Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d3bab8fb373ccd0c68638e1aa8bf53b87063b0df/Tracks/me2beats_Select%20all%20tracks%20in%20selected%20track%20groups.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select all tracks with hardware outputs.lua" type="script" desc="Select all tracks with hardware outputs">
