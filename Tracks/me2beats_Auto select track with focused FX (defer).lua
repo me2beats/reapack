@@ -1,5 +1,5 @@
--- @description Auto select track with focused FX 1.2 (defer)
--- @version 1.3
+-- @description Auto select track with focused FX (defer)
+-- @version 1.31
 -- @author me2beats
 -- @changelog
 --  + Added prevent UI refresh; Fast responsiveness but may eat more CPU (if so - pls downgrade to 1.2)
