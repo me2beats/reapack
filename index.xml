@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="e8d46c3cbc706fa7449a327bb747ef0154185c0e">
+<index version="1" name="me2beats Scripts" commit="c1f266fd573829dbb2d3f8f7416e0ba05b401a64">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -2014,6 +2014,18 @@
       <version name="1.0" author="me2beats" time="2017-05-03T15:36:20Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/7e5ebe42b0b353d1bca3d393c6a039817fc37bdb/Tracks/me2beats_Toggle%20select%20track%20at%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle show-hide saved selected tracks, slot 1.lua" type="script" desc="Toggle show-hide saved selected tracks, slot 1">
+      <version name="1.0" author="me2beats" time="2017-06-07T22:51:56Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c1f266fd573829dbb2d3f8f7416e0ba05b401a64/Tracks/me2beats_Toggle%20show-hide%20saved%20selected%20tracks,%20slot%201.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle show-hide saved selected tracks, slot 2.lua" type="script" desc="Toggle show-hide saved selected tracks, slot 2">
+      <version name="1.0" author="me2beats" time="2017-06-07T22:51:56Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/c1f266fd573829dbb2d3f8f7416e0ba05b401a64/Tracks/me2beats_Toggle%20show-hide%20saved%20selected%20tracks,%20slot%202.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle solo for soloed tracks.lua" type="script" desc="Toggle solo for soloed tracks">
