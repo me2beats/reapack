@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="740889bce516fbc4c7a07133053c66c016cfa574">
+<index version="1" name="me2beats Scripts" commit="7bc9bf73d363329e103e9b83c3eb36e45aa09f1f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1190,6 +1190,30 @@
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20note%20near%20mouse%20(add%20to%20selection).lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Select notes in every 1 beat (add to selection).lua" type="script" desc="Select notes in every 1 beat (add to selection)">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20notes%20in%20every%201%20beat%20(add%20to%20selection).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select notes in every 2 beat (add to selection).lua" type="script" desc="Select notes in every 2 beat (add to selection)">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20notes%20in%20every%202%20beat%20(add%20to%20selection).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select notes in every 3 beat (add to selection).lua" type="script" desc="Select notes in every 3 beat (add to selection)">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20notes%20in%20every%203%20beat%20(add%20to%20selection).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select notes in every 4 beat (add to selection).lua" type="script" desc="Select notes in every 4 beat (add to selection)">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20notes%20in%20every%204%20beat%20(add%20to%20selection).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Select only chord under mouse.lua" type="script" desc="Select only chord under mouse">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -1228,6 +1252,30 @@
       <version name="1.02" author="me2beats" time="2017-04-15T02:54:25Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/0d100de3a4db25ef20bed15a2c905d00bd8d8f11/MIDI%20Editor/me2beats_Select%20only%20note%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only notes in every 1 beat.lua" type="script" desc="Select only notes in every 1 beat">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20only%20notes%20in%20every%201%20beat.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only notes in every 2 beat.lua" type="script" desc="Select only notes in every 2 beat">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20only%20notes%20in%20every%202%20beat.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only notes in every 3 beat.lua" type="script" desc="Select only notes in every 3 beat">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20only%20notes%20in%20every%203%20beat.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select only notes in every 4 beat.lua" type="script" desc="Select only notes in every 4 beat">
+      <version name="1.0" author="me2beats" time="2017-06-12T00:02:24Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/7bc9bf73d363329e103e9b83c3eb36e45aa09f1f/MIDI%20Editor/me2beats_Select%20only%20notes%20in%20every%204%20beat.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select only notes with lowest pitch (from selected notes).lua" type="script" desc="Select only notes with lowest pitch (from selected notes)">
