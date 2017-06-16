@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="d17b946bb1f645a1dcf28905128cb55ab37a5fbd">
+<index version="1" name="me2beats Scripts" commit="6e560b6e27990f67bb043802a0e1ea89ed03459d">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1542,6 +1542,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Close%20focused%20track%20fx%20window.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Create folder from each selected track.lua" type="script" desc="Create folder from each selected track">
+      <version name="1.0" author="me2beats" time="2017-06-16T01:41:51Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/6e560b6e27990f67bb043802a0e1ea89ed03459d/Tracks/me2beats_Create%20folder%20from%20each%20selected%20track.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Create folder from selected track to track at mouse (+rename folder).lua" type="script" desc="Create folder from selected track to track at mouse (+rename folder)">
