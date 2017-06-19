@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="d4d4e67c3308e31c0add8b166dc4a183b4733847">
+<index version="1" name="me2beats Scripts" commit="312ecc1d3d16f39d072b54a68f15813368480e28">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Copy%20active%20take%20envelopes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Copy selected track volume envelope points.lua" type="script" desc="Copy selected track volume envelope points">
+      <version name="1.0" author="me2beats" time="2017-06-19T17:45:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/312ecc1d3d16f39d072b54a68f15813368480e28/Envelopes/me2beats_Copy%20selected%20track%20volume%20envelope%20points.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Delete envelope at mouse.lua" type="script" desc="Delete envelope at mouse">
@@ -77,6 +83,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Paste%20envelopes%20to%20active%20takes%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Paste saved points to selected track volume envelope.lua" type="script" desc="Paste saved points to selected track volume envelope">
+      <version name="1.0" author="me2beats" time="2017-06-19T17:45:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/312ecc1d3d16f39d072b54a68f15813368480e28/Envelopes/me2beats_Paste%20saved%20points%20to%20selected%20track%20volume%20envelope.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Show selected envelope FX.lua" type="script" desc="Show selected envelope FX">
