@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="312ecc1d3d16f39d072b54a68f15813368480e28">
+<index version="1" name="me2beats Scripts" commit="41cac31296d1a8d859d114b7e4e31a9ed0d4e328">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -2326,6 +2326,30 @@
       <version name="1.11" author="me2beats" time="2017-04-06T01:11:52Z">
         <changelog><![CDATA[+ fix]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/71128deae4e2eace17f032c5ff05b9b67c5ea770/Transport%20and%20navigation/me2beats_Record.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set loop selection to bar at edit cursor.lua" type="script" desc="Set loop selection to bar at edit cursor">
+      <version name="1.0" author="me2beats" time="2017-06-21T21:38:52Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/41cac31296d1a8d859d114b7e4e31a9ed0d4e328/Transport%20and%20navigation/me2beats_Set%20loop%20selection%20to%20bar%20at%20edit%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set loop selection to bar at play cursor.lua" type="script" desc="Set loop selection to bar at play cursor">
+      <version name="1.0" author="me2beats" time="2017-06-21T21:38:52Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/41cac31296d1a8d859d114b7e4e31a9ed0d4e328/Transport%20and%20navigation/me2beats_Set%20loop%20selection%20to%20bar%20at%20play%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set loop selection to beat at edit cursor.lua" type="script" desc="Set loop selection to beat at edit cursor">
+      <version name="1.0" author="me2beats" time="2017-06-21T21:38:52Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/41cac31296d1a8d859d114b7e4e31a9ed0d4e328/Transport%20and%20navigation/me2beats_Set%20loop%20selection%20to%20beat%20at%20edit%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set loop selection to beat at play cursor.lua" type="script" desc="Set loop selection to beat at play cursor">
+      <version name="1.0" author="me2beats" time="2017-06-21T21:38:52Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/41cac31296d1a8d859d114b7e4e31a9ed0d4e328/Transport%20and%20navigation/me2beats_Set%20loop%20selection%20to%20beat%20at%20play%20cursor.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Set playrate.lua" type="script" desc="Set playrate">
