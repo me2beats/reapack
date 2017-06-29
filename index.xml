@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="51e097665f256d39c165ead02ac162608bfbb915">
+<index version="1" name="me2beats Scripts" commit="9661daae3b05edcc6d1ba39cd9a978724e00d3f4">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -337,6 +337,12 @@
       <version name="1.0" author="me2beats" time="2017-03-30T20:03:33Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/4c9962c6f603e3283ba44cc54ef2d164e4928335/Items/me2beats_Move%20item%20one%20measure%20right.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move items left or right by grid size (mousewheel).lua" type="script" desc="Move items left or right by grid size (mousewheel)">
+      <version name="1.0" author="me2beats" time="2017-06-29T19:46:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/9661daae3b05edcc6d1ba39cd9a978724e00d3f4/Items/me2beats_Move%20items%20left%20or%20right%20by%20grid%20size%20(mousewheel).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move items to selected track.lua" type="script" desc="Move items to selected track">
@@ -2326,6 +2332,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/71128deae4e2eace17f032c5ff05b9b67c5ea770/Transport%20and%20navigation/me2beats_Play-stop%20and%20record%20off.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Record - toggle wait for MIDI note.lua" type="script" desc="Record - toggle wait for MIDI note">
+      <version name="1.0" author="me2beats" time="2017-06-29T19:46:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/9661daae3b05edcc6d1ba39cd9a978724e00d3f4/Transport%20and%20navigation/me2beats_Record%20-%20toggle%20wait%20for%20MIDI%20note.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Record.lua" type="script" desc="Record">
       <version name="1.0" author="me2beats" time="2017-04-05T15:04:23Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -2398,6 +2410,18 @@
       <version name="1.0" author="me2beats" time="2017-03-10T23:27:01Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/8181df9c48460f3089f982afd9dad3c216fa676c/Transport%20and%20navigation/me2beats_Vertical%20zoom%20to%20tracks%20with%20items,%20minimize%20others.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Wait for MIDI note - play-stop.lua" type="script" desc="Wait for MIDI note - play-stop">
+      <version name="1.0" author="me2beats" time="2017-06-29T19:46:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/9661daae3b05edcc6d1ba39cd9a978724e00d3f4/Transport%20and%20navigation/me2beats_Wait%20for%20MIDI%20note%20-%20play-stop.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Wait for MIDI note - stop recording.lua" type="script" desc="Wait for MIDI note - stop recording">
+      <version name="1.0" author="me2beats" time="2017-06-29T19:46:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/9661daae3b05edcc6d1ba39cd9a978724e00d3f4/Transport%20and%20navigation/me2beats_Wait%20for%20MIDI%20note%20-%20stop%20recording.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Zoom horizontally if ruler is at mouse (otherwise scroll vertically).lua" type="script" desc="Zoom horizontally if ruler is at mouse (otherwise scroll vertically)">
