@@ -1,19 +1,30 @@
 -- @description Record - toggle wait for MIDI note
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
+--  + an issue with deleting a track with midi examiner fixed 
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
 local function find_track_by_name(name)
   local found
-  for i = 0, r.CountTracks()-1 do
+  local tracks = r.CountTracks()
+  for i = 0, tracks-1 do
     local tr = r.GetTrack(0,i)
     local _, tr_name = r.GetSetMediaTrackInfo_String(tr, 'P_NAME', '', 0)
     if tr_name == name then found = tr end
   end
   return found
+end
+
+function track_exists(tr)
+  local f
+  local tracks = r.CountTracks()
+  for i = 0, tracks-1 do
+    if track == r.GetTrack(0,i) then f = 1 break end
+  end
+  return f
 end
 
 local track,last_pitch
@@ -26,7 +37,8 @@ local function rec_wait()
     r.DeleteExtState(ext_sec, ext_key, 0) return
   end
 
-  if not track then track = find_track_by_name('MIDI Examiner')
+
+  if not track_exists(track) then track = find_track_by_name('MIDI Examiner')
   else
     local _, tr_name = r.GetSetMediaTrackInfo_String(track, 'P_NAME', '', 0)
     if tr_name ~= 'MIDI Examiner' then track = find_track_by_name('MIDI Examiner') end
