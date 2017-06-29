@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="bfa881fde5660d7fc323de4c04ce39ff2a578cdb">
+<index version="1" name="me2beats Scripts" commit="42317df2b0e3ca570c7e9046b3463d352a78de77">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -2341,6 +2341,12 @@
         <changelog><![CDATA[+ init
 + an issue with deleting a track with midi examiner fixed ]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/bfa881fde5660d7fc323de4c04ce39ff2a578cdb/Transport%20and%20navigation/me2beats_Record%20-%20toggle%20wait%20for%20MIDI%20note.lua</source>
+      </version>
+      <version name="1.2" author="me2beats" time="2017-06-29T20:45:15Z">
+        <changelog><![CDATA[+ init
++ an issue with deleting a track with midi examiner fixed
++ something is improved (cfillion many thanks)]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/42317df2b0e3ca570c7e9046b3463d352a78de77/Transport%20and%20navigation/me2beats_Record%20-%20toggle%20wait%20for%20MIDI%20note.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Record.lua" type="script" desc="Record">
