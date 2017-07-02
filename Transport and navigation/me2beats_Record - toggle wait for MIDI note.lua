@@ -1,10 +1,11 @@
 -- @description Record - toggle wait for MIDI note
--- @version 1.2
+-- @version 1.3
 -- @author me2beats
 -- @changelog
 --  + init
 --  + an issue with deleting a track with midi examiner fixed
 --  + something is improved (cfillion many thanks)
+--  + more fixes
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
@@ -36,7 +37,7 @@ local function rec_wait()
     if tr_name ~= 'MIDI Examiner' then track = find_track_by_name('MIDI Examiner') end
   end
 
-  r.Undo_BeginBlock() r.PreventUIRefresh(1)
+  r.PreventUIRefresh(1)
   local fx
   if track then
     fx = r.TrackFX_AddByName(track, 'midi_examine', 0, 0)
@@ -53,6 +54,8 @@ local function rec_wait()
 
     r.SetMediaTrackInfo_Value(track, 'I_RECARM',1)
     r.SetMediaTrackInfo_Value(track, 'I_RECMON',1)
+    r.SetMediaTrackInfo_Value(track, 'I_RECINPUT',6112)
+    r.SetMediaTrackInfo_Value(track,"I_RECMODE",2)
   end
 
 
@@ -72,7 +75,7 @@ local function rec_wait()
 
   end
 
-  r.PreventUIRefresh(-1) r.Undo_EndBlock('Wait for MIDI note', 2)
+  r.PreventUIRefresh(-1)
 
 end
 
@@ -110,4 +113,3 @@ function ()
   local rec = r.GetPlayState()==4 or r.GetPlayState()==5
   if rec then r.OnStopButton() end
 end)
-
