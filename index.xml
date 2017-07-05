@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="0fa94d55aec4501e932859f87250244c7d0208ad">
+<index version="1" name="me2beats Scripts" commit="f7bcdc3ea9d90d1f384f1082e72c504f14fcf5b4">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -123,6 +123,12 @@
       <version name="1.1" author="me2beats" time="2017-04-03T16:41:51Z">
         <changelog><![CDATA[+ multiple fx]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/44196dbb045a059c0122d36a64b6dd09dcb9bc21/FX/me2beats_Add%20fx%20by%20name%20to%20track%20under%20mouse.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Close all fx windows.lua" type="script" desc="Close all fx windows">
+      <version name="1.0" author="me2beats" time="2017-07-05T15:33:33Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/f7bcdc3ea9d90d1f384f1082e72c504f14fcf5b4/FX/me2beats_Close%20all%20fx%20windows.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Close last touched floating FX window.lua" type="script" desc="Close last touched floating FX window">
