@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9">
+<index version="1" name="me2beats Scripts" commit="92521248b8acabbd256cdb47b9e78dd550601e3e">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -89,6 +89,10 @@
       <version name="1.0" author="me2beats" time="2017-04-22T21:22:40Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/9b44986a6ec0cfe31498cdf0cf935ecf5efa7ac4/Envelopes/me2beats_Move%20selected%20envelope%20up.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:42:11Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/92521248b8acabbd256cdb47b9e78dd550601e3e/Envelopes/me2beats_Move%20selected%20envelope%20up.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Paste envelopes to active takes of selected items.lua" type="script" desc="Paste envelopes to active takes of selected items">
