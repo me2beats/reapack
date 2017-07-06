@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="f7bcdc3ea9d90d1f384f1082e72c504f14fcf5b4">
+<index version="1" name="me2beats Scripts" commit="2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -18,11 +18,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Envelopes/me2beats_Delete%20envelope%20at%20mouse.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/Envelopes/me2beats_Delete%20envelope%20at%20mouse.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Delete envelope for last touched parameter.lua" type="script" desc="Delete envelope for last touched parameter">
       <version name="1.0" author="me2beats" time="2017-04-18T09:48:26Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/428e85d726b2ee4a622badd55b7561502a720006/Envelopes/me2beats_Delete%20envelope%20for%20last%20touched%20parameter.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/Envelopes/me2beats_Delete%20envelope%20for%20last%20touched%20parameter.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Edit nearest envelope point from mouse.lua" type="script" desc="Edit nearest envelope point from mouse">
@@ -59,6 +67,10 @@
       <version name="1.0" author="me2beats" time="2017-04-22T21:22:40Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/9b44986a6ec0cfe31498cdf0cf935ecf5efa7ac4/Envelopes/me2beats_Move%20selected%20envelope%20down.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/Envelopes/me2beats_Move%20selected%20envelope%20down.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move selected envelope points X sec right or left (without input box).lua" type="script" desc="Move selected envelope points X sec right or left (without input box)">
@@ -142,11 +154,19 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/33b0532bdd43cd67dff9d6c3302a33b80ca55113/FX/me2beats_Copy%20focused%20FX%20(with%20automation)%20to%20selected%20tracks.lua</source>
       </version>
+      <version name="0.8" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/FX/me2beats_Copy%20focused%20FX%20(with%20automation)%20to%20selected%20tracks.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Permanent fx size (defer).lua" type="script" desc="Permanent fx size (defer)">
       <version name="0.5" author="me2beats" time="2017-02-17T22:15:29Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/5536d922c8236c8730c4bb71a4911f55d58a8823/FX/me2beats_Permanent%20fx%20size%20(defer).lua</source>
+      </version>
+      <version name="0.6" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/FX/me2beats_Permanent%20fx%20size%20(defer).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Remove focused track fx.lua" type="script" desc="Remove focused track fx">
@@ -165,6 +185,10 @@
       <version name="0.9" author="me2beats" time="2017-07-04T22:43:46Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/0fa94d55aec4501e932859f87250244c7d0208ad/FX/me2beats_Select%20last%20touched%20FX.lua</source>
+      </version>
+      <version name="0.95" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/FX/me2beats_Select%20last%20touched%20FX.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Set preset.lua" type="script" desc="Set preset">
@@ -1185,17 +1209,29 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view,%20slot%201.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view,%20slot%201.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Restore MIDI editor view, slot 2.lua" type="script" desc="Restore MIDI editor view, slot 2">
       <version name="1.0" author="me2beats" time="2017-05-04T14:16:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view,%20slot%202.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view,%20slot%202.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Restore MIDI editor view.lua" type="script" desc="Restore MIDI editor view">
       <version name="1.0" author="me2beats" time="2017-05-04T14:16:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Reverse horizontally 2 selected notes.lua" type="script" desc="Reverse horizontally 2 selected notes">
@@ -1209,17 +1245,29 @@
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view,%20slot%201.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view,%20slot%201.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Save MIDI editor view, slot 2.lua" type="script" desc="Save MIDI editor view, slot 2">
       <version name="1.0" author="me2beats" time="2017-05-04T14:16:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view,%20slot%202.lua</source>
       </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view,%20slot%202.lua</source>
+      </version>
     </reapack>
     <reapack name="me2beats_Save MIDI editor view.lua" type="script" desc="Save MIDI editor view">
       <version name="1.0" author="me2beats" time="2017-05-04T14:16:14Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/630d79474f87fc141dead00665719c613d663603/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select note near mouse (add to selection).lua" type="script" desc="Select note near mouse (add to selection)">
