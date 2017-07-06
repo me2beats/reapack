@@ -1,10 +1,32 @@
 -- @description Copy focused FX (with automation) to selected tracks
--- @version 0.7
+-- @version 0.8
 -- @author me2beats
 -- @changelog
 --  + init
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+
+function GetTrackChunk(track)
+  if not track then return end
+  local fast_str, track_chunk
+  fast_str = r.SNM_CreateFastString("")
+  if r.SNM_GetSetObjectState(track, fast_str, false, false) then
+    track_chunk = r.SNM_GetFastString(fast_str)
+  end
+  r.SNM_DeleteFastString(fast_str)  
+  return track_chunk
+end
+
+function SetTrackChunk(track, track_chunk)
+  if not (track and track_chunk) then return end
+  local fast_str, ret 
+  fast_str = r.SNM_CreateFastString("")
+  if r.SNM_SetFastString(fast_str, track_chunk) then
+    ret = r.SNM_GetSetObjectState(track, fast_str, true, false)
+  end
+  r.SNM_DeleteFastString(fast_str)
+  return ret
+end
 
 function esc_lite (str) str = str:gsub('%-', '%%-') return str end
 
@@ -33,7 +55,7 @@ function New_guids(str)
 
   for i = 0, r.CountTracks()-1 do
     tr = r.GetTrack(0,i)
-    _, chunk = r.GetTrackStateChunk(tr, '', 0)
+	chunk = GetTrackChunk(tr)
     for guid in chunk:gmatch'{........%-....%-....%-....%-............}' do
       if Elem_in_tb(guid,guids_tb) == false then
         table.insert(guids_tb, guid)
@@ -77,7 +99,7 @@ retval, trnum, _, fxnum = r.GetFocusedFX()
 if retval == 0 then bla() return end
 
 tr_from = r.GetTrack(0,trnum-1)
-_, chunk_from = r.GetTrackStateChunk(tr_from, '', 0)
+chunk_from = GetTrackChunk(tr_from)
 
 fx_guid = r.TrackFX_GetFXGUID(tr_from, fxnum)
 
@@ -94,7 +116,7 @@ for i = 0, tracks-1 do
   tr_to = r.GetSelectedTrack(0,i)
 
   if tr_to == tr_from then chunk_to = chunk_from
-  else _, chunk_to = r.GetTrackStateChunk(tr_to, '', 0) end
+  else chunk_to = GetTrackChunk(tr_to) end
 
   is_fx_chain = chunk_to:match('\n<FXCHAIN')
   if is_fx_chain then
@@ -117,7 +139,8 @@ for i = 0, tracks-1 do
 
   new_chunk_to = before..fx_data_from..after
 
-  r.SetTrackStateChunk(tr_to, new_chunk_to, 0)
+  SetTrackChunk(tr_to, new_chunk_to)
+  
 end
 r.PreventUIRefresh(1)
 

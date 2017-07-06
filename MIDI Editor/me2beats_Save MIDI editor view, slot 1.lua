@@ -1,10 +1,21 @@
 -- @description Save MIDI editor view, slot 1
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+
+function GetTrackChunk(track)
+  if not track then return end
+  local fast_str, track_chunk
+  fast_str = r.SNM_CreateFastString("")
+  if r.SNM_GetSetObjectState(track, fast_str, false, false) then
+    track_chunk = r.SNM_GetFastString(fast_str)
+  end
+  r.SNM_DeleteFastString(fast_str)  
+  return track_chunk
+end
 
 function esc(str) str = str:gsub('%-', '%%-') return str end
 
@@ -17,7 +28,7 @@ local item = r.GetMediaItemTake_Item(take)
 
 local tr = r.GetMediaItem_Track(item)
 
-local _, chunk = r.GetTrackStateChunk(tr, '', 0)
+local chunk = r.GetTrackChunk(tr)
 
 local view = chunk:match(esc(guid)..'.-CFGEDITVIEW(.-)\n')
 
