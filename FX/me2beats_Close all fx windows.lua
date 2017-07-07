@@ -1,5 +1,5 @@
 -- @description Close all fx windows
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
@@ -31,6 +31,7 @@ function close_tr_fx(tr)
 end
 
 function close_tk_fx(tk)
+  if not tk then return end
   local fx = r.TakeFX_GetCount(tk)
   for i = 0,fx-1 do
     if r.TakeFX_GetOpen(tk, i) then
