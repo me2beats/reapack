@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="64b4dcd856c143eadbb530f5054d272f0d6dfdde">
+<index version="1" name="me2beats Scripts" commit="e4f067bc137e2ac7e70e16227c70ed751404ccd4">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -49,6 +49,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Envelopes/me2beats_Insert%20new%20envelope%20point%20at%20mouse%20(obey%20snapping).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to last selected envelope selected point.lua" type="script" desc="Move cursor to last selected envelope selected point">
+      <version name="1.0" author="me2beats" time="2017-07-07T17:56:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e4f067bc137e2ac7e70e16227c70ed751404ccd4/Envelopes/me2beats_Move%20cursor%20to%20last%20selected%20envelope%20selected%20point.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move cursor to selected envelope selected point.lua" type="script" desc="Move cursor to selected envelope selected point">
