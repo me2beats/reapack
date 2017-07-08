@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="e4f067bc137e2ac7e70e16227c70ed751404ccd4">
+<index version="1" name="me2beats Scripts" commit="ca57035b1e1a40dc8ad7d8629fbef3c64ce2e8ca">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -2530,6 +2530,12 @@
     </reapack>
   </category>
   <category name="Why we need MoveTrack(idx) function">
+    <reapack name="me2beats_Create folder from selected tracks (+rename folder) 2.lua" type="script" desc="Create folder from selected tracks (+rename folder) 2">
+      <version name="0.7" author="me2beats" time="2017-07-08T04:15:17Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ca57035b1e1a40dc8ad7d8629fbef3c64ce2e8ca/Why%20we%20need%20MoveTrack(idx)%20function/me2beats_Create%20folder%20from%20selected%20tracks%20(+rename%20folder)%202.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Sort tracks alphabetically.lua" type="script" desc="Sort tracks alphabetically">
       <version name="0.1" author="me2beats" time="2017-03-21T02:29:09Z">
         <changelog><![CDATA[+ init]]></changelog>
