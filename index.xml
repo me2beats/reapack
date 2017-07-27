@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="ca57035b1e1a40dc8ad7d8629fbef3c64ce2e8ca">
+<index version="1" name="me2beats Scripts" commit="37ae810d8c6755cd30832aaa4c0f96da8a227743">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -802,6 +802,12 @@
 + some bugs fixed
 + item selection bug fixed, smarter snap]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/3ab1396497e4874757fa881174d4b43a9ef01134/Items/me2beats_Stutter%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Switch item source file to random in folder.lua" type="script" desc="Switch item source file to random in folder">
+      <version name="1.0" author="me2beats" time="2017-07-27T19:36:28Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/37ae810d8c6755cd30832aaa4c0f96da8a227743/Items/me2beats_Switch%20item%20source%20file%20to%20random%20in%20folder.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle mute for muted items.lua" type="script" desc="Toggle mute for muted items">
