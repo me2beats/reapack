@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="cc259de6e8adad88cb36429b1f20a9a4d544a40a">
+<index version="1" name="me2beats Scripts" commit="ce808253d50b920697d486cea9964edfc924ef19">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -534,6 +534,18 @@
       <version name="1.0" author="me2beats" time="2017-04-25T20:08:47Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/fe983238cf847f324f5fee6e12f4db1ea49e7dd5/Items/me2beats_Select%20even%20items%20starting%20from%20selected%20one.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select item in next track.lua" type="script" desc="Select item in next track">
+      <version name="1.0" author="me2beats" time="2017-07-29T01:35:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ce808253d50b920697d486cea9964edfc924ef19/Items/me2beats_Select%20item%20in%20next%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Select item in previous track.lua" type="script" desc="Select item in previous track">
+      <version name="1.0" author="me2beats" time="2017-07-29T01:35:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/ce808253d50b920697d486cea9964edfc924ef19/Items/me2beats_Select%20item%20in%20previous%20track.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select item near mouse.lua" type="script" desc="Select item near mouse">
