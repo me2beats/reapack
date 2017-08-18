@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="b9ae21ec1e7070f3aa18844965753549a07f05be">
+<index version="1" name="me2beats Scripts" commit="4082fb8ae5cbb9478e319a1bc39fa95477485abe">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -275,6 +275,12 @@
       <version name="1.0" author="me2beats" time="2017-08-15T17:27:42Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/8ede734117712529aa524ad9db78fab4ec4ac69a/Items/me2beats_Delete%20'freeze'%20in%20tracks%20items%20names.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete 'untitled MIDI item' in items names.lua" type="script" desc="Delete 'untitled MIDI item' in items names">
+      <version name="1.0" author="me2beats" time="2017-08-18T18:15:33Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/4082fb8ae5cbb9478e319a1bc39fa95477485abe/Items/me2beats_Delete%20'untitled%20MIDI%20item'%20in%20items%20names.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Delete muted items from selected items.lua" type="script" desc="Delete muted items from selected items">
