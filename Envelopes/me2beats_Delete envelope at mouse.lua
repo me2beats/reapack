@@ -1,10 +1,10 @@
 -- @description Delete envelope at mouse
--- @version 1.1
+-- @version 1.2
 -- @author me2beats
 -- @changelog
 --  + init
 
-local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+local r = reaper
 
 function GetTrackChunk(track)
   if not track then return end
@@ -45,9 +45,9 @@ return str end
 
 local window, segment, details = r.BR_GetMouseCursorContext()
 local env, takeEnv = r.BR_GetMouseCursorContext_Envelope()
-if takeEnv then bla() return end
+if takeEnv then return end
 
-if not env then bla() return end
+if not env then return end
 
 r.Undo_BeginBlock() r.PreventUIRefresh(1)
 

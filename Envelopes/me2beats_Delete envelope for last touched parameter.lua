@@ -1,10 +1,10 @@
 -- @description Delete envelope for last touched parameter
--- @version 1.1
+-- @version 1.2
 -- @author me2beats
 -- @changelog
 --  + init
 
-local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+local r = reaper
 
 function GetTrackChunk(track)
   if not track then return end
@@ -59,7 +59,7 @@ for i = 0,envs-1 do
   if tr_fxnum == fxnum and tr_paramnum == paramnum then num = i break end
 end
 
-if not num then bla() return end
+if not num then return end
 
 local chunk = GetTrackChunk(tr)
 

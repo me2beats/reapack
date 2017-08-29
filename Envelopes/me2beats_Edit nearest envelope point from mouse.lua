@@ -1,22 +1,22 @@
 -- @description Edit nearest envelope point from mouse
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
 
-local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+local r = reaper
 
 local _, segment = r.BR_GetMouseCursorContext()
 mouse = r.BR_GetMouseCursorContext_Position()
 
-if not mouse or mouse == -1 then bla() return end
+if not mouse or mouse == -1 then return end
 
 env = r.BR_GetMouseCursorContext_Envelope()
 
-if not env then bla() return end
+if not env then return end
 
 local points = r.CountEnvelopePoints(env)
-if points == 0 then bla() return end
+if points == 0 then return end
 
 local cur = r.GetCursorPosition()
 

@@ -1,10 +1,10 @@
 -- @description Copy selected track volume envelope points
--- @version 1.0
+-- @version 1.1
 -- @author me2beats
 -- @changelog
 --  + init
 
-local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
+local r = reaper
 
 function bool_to_num(bool) if bool then return 1 else return 0 end end
 
@@ -20,7 +20,7 @@ for i = 0, envs-1 do
   if env_name == 'Volume' then found = 1 break end
 end
 
-if not found then bla() return end
+if not found then return end
 
 
 local points = r.CountEnvelopePoints(env)
