@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="559eb8f7af874a87aa58f52c07f8ed8828ffb2d2">
+<index version="1" name="me2beats Scripts" commit="638df01bd6180f8f987d4476c3cc2fbd91fd09e3">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1502,6 +1502,30 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Select%20only%20odd%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set min and max velocity for selected notes (MIDI Editor).lua" type="script" desc="Set min and max velocity for selected notes (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-04T21:07:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/638df01bd6180f8f987d4476c3cc2fbd91fd09e3/MIDI%20Editor/me2beats_Set%20min%20and%20max%20velocity%20for%20selected%20notes%20(MIDI%20Editor).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set min and max velocity for selected notes (silent, MIDI Editor).lua" type="script" desc="Set min and max velocity for selected notes (silent, MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-04T21:07:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/638df01bd6180f8f987d4476c3cc2fbd91fd09e3/MIDI%20Editor/me2beats_Set%20min%20and%20max%20velocity%20for%20selected%20notes%20(silent,%20MIDI%20Editor).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set min and max velocity for take notes (MIDI Editor).lua" type="script" desc="Set min and max velocity for take notes (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-04T21:07:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/638df01bd6180f8f987d4476c3cc2fbd91fd09e3/MIDI%20Editor/me2beats_Set%20min%20and%20max%20velocity%20for%20take%20notes%20(MIDI%20Editor).lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Set min and max velocity for take notes (silent, MIDI Editor).lua" type="script" desc="Set min and max velocity for take notes (silent, MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-04T21:07:01Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/638df01bd6180f8f987d4476c3cc2fbd91fd09e3/MIDI%20Editor/me2beats_Set%20min%20and%20max%20velocity%20for%20take%20notes%20(silent,%20MIDI%20Editor).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Set note ends to start of next note (legato).lua" type="script" desc="Set note ends to start of next note (legato)">
