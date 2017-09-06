@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="638df01bd6180f8f987d4476c3cc2fbd91fd09e3">
+<index version="1" name="me2beats Scripts" commit="f62c217cabf56553e0e29cf895fe32ffa56815dc">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1558,6 +1558,12 @@
       <version name="1.0" author="me2beats" time="2017-04-20T07:20:47Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/a045535c02a137e55818551f64a7d95def9c70ff/MIDI%20Editor/me2beats_Set%20velocity%20for%20selected%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Shuffle selected notes (preserving chords).lua" type="script" desc="Shuffle selected notes (preserving chords)">
+      <version name="1.0" author="me2beats" time="2017-09-06T20:43:44Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/f62c217cabf56553e0e29cf895fe32ffa56815dc/MIDI%20Editor/me2beats_Shuffle%20selected%20notes%20(preserving%20chords).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Solo track with active midi editor.lua" type="script" desc="Solo track with active midi editor">
