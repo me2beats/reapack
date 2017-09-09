@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="56eaeddfa7b21c45f7a7c527b68d1f71283f03c5">
+<index version="1" name="me2beats Scripts" commit="63270290a174d9a3559bcf482a8d0902ea81fa71">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1318,10 +1318,22 @@
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/a86b4c95ecc928de01a133a664a59cfd0a902f6b/MIDI%20Editor/me2beats_Duplicate%20selected%20events.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Go to start of current measure (MIDI Editor).lua" type="script" desc="Go to start of current measure (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-09T16:21:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/63270290a174d9a3559bcf482a8d0902ea81fa71/MIDI%20Editor/me2beats_Go%20to%20start%20of%20current%20measure%20(MIDI%20Editor).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Increase selected notes volume linearly 0.9.lua" type="script" desc="Increase selected notes volume linearly 0.9">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Increase%20selected%20notes%20volume%20linearly%200.9.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to start of current measure (MIDI Editor).lua" type="script" desc="Move cursor to start of current measure (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-09T16:21:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/63270290a174d9a3559bcf482a8d0902ea81fa71/MIDI%20Editor/me2beats_Move%20cursor%20to%20start%20of%20current%20measure%20(MIDI%20Editor).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move notes up or down (mousewheel).lua" type="script" desc="Move notes up or down (mousewheel)">
@@ -2518,6 +2530,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20nearest%20grid%20division.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to start of loop.lua" type="script" desc="Move cursor to start of loop">
+      <version name="1.0" author="me2beats" time="2017-09-09T16:21:57Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/63270290a174d9a3559bcf482a8d0902ea81fa71/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20start%20of%20loop.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move cursor to the rightmost item end.lua" type="script" desc="Move cursor to the rightmost item end">
