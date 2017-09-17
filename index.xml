@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="66bac32fb5db1c4784e8aaba7eeeda1f2a12839b">
+<index version="1" name="me2beats Scripts" commit="b4015565f0b17b23180ceac06596b9bf3da9086b">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1254,10 +1254,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/cc259de6e8adad88cb36429b1f20a9a4d544a40a/Media%20Explorer/me2beats_Auto%20open%20folder%20with%20media%20item%20active%20take%20source%20media.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Close Media Explorer.lua" type="script" desc="Close Media Explorer">
+      <version name="1.0" author="me2beats" time="2017-09-17T10:04:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/b4015565f0b17b23180ceac06596b9bf3da9086b/Media%20Explorer/me2beats_Close%20Media%20Explorer.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Open folder with media item active take source media.lua" type="script" desc="Open folder with media item active take source media">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Media%20Explorer/me2beats_Open%20folder%20with%20media%20item%20active%20take%20source%20media.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Open Media Explorer.lua" type="script" desc="Open Media Explorer">
+      <version name="1.0" author="me2beats" time="2017-09-17T10:04:09Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/b4015565f0b17b23180ceac06596b9bf3da9086b/Media%20Explorer/me2beats_Open%20Media%20Explorer.lua</source>
       </version>
     </reapack>
   </category>
