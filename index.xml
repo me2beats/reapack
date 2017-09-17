@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="b4015565f0b17b23180ceac06596b9bf3da9086b">
+<index version="1" name="me2beats Scripts" commit="4fcab774217d2f2f4ef429192ffea13cb781de5e">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1390,6 +1390,12 @@
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Restore%20MIDI%20editor%20view.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Restore time selection (MIDI Editor).lua" type="script" desc="Restore time selection (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-17T16:10:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/4fcab774217d2f2f4ef429192ffea13cb781de5e/MIDI%20Editor/me2beats_Restore%20time%20selection%20(MIDI%20Editor).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Reverse horizontally 2 selected notes.lua" type="script" desc="Reverse horizontally 2 selected notes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -1424,6 +1430,12 @@
       <version name="1.1" author="me2beats" time="2017-07-06T11:38:54Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/2536fe0b8ebf2e4773dc6a6ebae71d2111ce3bf9/MIDI%20Editor/me2beats_Save%20MIDI%20editor%20view.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Save time selection (MIDI Editor).lua" type="script" desc="Save time selection (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-17T16:10:25Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/4fcab774217d2f2f4ef429192ffea13cb781de5e/MIDI%20Editor/me2beats_Save%20time%20selection%20(MIDI%20Editor).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Select note near mouse (add to selection).lua" type="script" desc="Select note near mouse (add to selection)">
