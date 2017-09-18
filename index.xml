@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="1b46c68578a57ea068b6a38eb363225e461a8c91">
+<index version="1" name="me2beats Scripts" commit="a1103f6b25003eecbf19313977b9de6eecc750bd">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1732,6 +1732,18 @@
       <version name="0.5" author="me2beats" time="2017-05-31T17:13:57Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/b2334ff93e307bd3727e40569e8bacca2efb4279/Other/me2beats_Close%20toolbar%201.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Disable swing grid.lua" type="script" desc="Disable swing grid">
+      <version name="1.0" author="me2beats" time="2017-09-18T16:00:37Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/a1103f6b25003eecbf19313977b9de6eecc750bd/Other/me2beats_Disable%20swing%20grid.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Enable swing grid.lua" type="script" desc="Enable swing grid">
+      <version name="1.0" author="me2beats" time="2017-09-18T16:00:37Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/a1103f6b25003eecbf19313977b9de6eecc750bd/Other/me2beats_Enable%20swing%20grid.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Open toolbar 1.lua" type="script" desc="Open toolbar 1">
