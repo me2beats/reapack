@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="4fcab774217d2f2f4ef429192ffea13cb781de5e">
+<index version="1" name="me2beats Scripts" commit="e7868decf9b16f3783b7719523e3f411511014cd">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1258,6 +1258,10 @@
       <version name="1.0" author="me2beats" time="2017-09-17T10:04:09Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/b4015565f0b17b23180ceac06596b9bf3da9086b/Media%20Explorer/me2beats_Close%20Media%20Explorer.lua</source>
+      </version>
+      <version name="1.1" author="me2beats" time="2017-09-18T06:18:39Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/e7868decf9b16f3783b7719523e3f411511014cd/Media%20Explorer/me2beats_Close%20Media%20Explorer.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Open folder with media item active take source media.lua" type="script" desc="Open folder with media item active take source media">
