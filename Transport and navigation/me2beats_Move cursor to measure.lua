@@ -1,3 +1,9 @@
+-- @description Move cursor to measure
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 local r = reaper
 
 local retval, msr = r.GetUserInputs("Go to measure", 1, "Go to measure:", "")

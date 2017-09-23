@@ -1,3 +1,9 @@
+-- @description Move cursor to measure 8
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 --------------user area-----------------------------
 local msr = 8
 local moveview = 0 -- set 1 if you want to move view
