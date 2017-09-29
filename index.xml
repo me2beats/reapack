@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="44bd3647ddb59143132eaa8f8e87bf9e2fa5dd17">
+<index version="1" name="me2beats Scripts" commit="d428dead396fcddcf7b6ddb47e56e8d5079463a6">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -315,6 +315,12 @@
       <version name="1.0" author="me2beats" time="2017-04-03T20:24:18Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/64e7d966ea72cb699ce9695b0d0c40f859aaf0a6/Items/me2beats_Delete%20muted%20items%20from%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete small notes at item edges (active take).lua" type="script" desc="Delete small notes at item edges (active take)">
+      <version name="1.0" author="me2beats" time="2017-09-29T19:12:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d428dead396fcddcf7b6ddb47e56e8d5079463a6/Items/me2beats_Delete%20small%20notes%20at%20item%20edges%20(active%20take).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Destutter items.lua" type="script" desc="Destutter items">
@@ -1334,6 +1340,12 @@
       <version name="1.0" author="me2beats" time="2017-04-18T13:42:36Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/44c295ba165ac9658778647736af5adad661113b/MIDI%20Editor/me2beats_Delete%20all%20notes%20with%20velocity%20less%20than%20X.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Delete small notes at item edges (MIDI Editor).lua" type="script" desc="Delete small notes at item edges (MIDI Editor)">
+      <version name="1.0" author="me2beats" time="2017-09-29T19:12:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/d428dead396fcddcf7b6ddb47e56e8d5079463a6/MIDI%20Editor/me2beats_Delete%20small%20notes%20at%20item%20edges%20(MIDI%20Editor).lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Duplicate selected events.lua" type="script" desc="Duplicate selected events">
@@ -2602,6 +2614,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/befba35683e4fa8f6b0ca6eef74b376d88a5d1bd/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20closest%20marker.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Move cursor to end of project.lua" type="script" desc="Move cursor to end of project">
+      <version name="1.0" author="me2beats" time="2017-09-29T19:12:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d428dead396fcddcf7b6ddb47e56e8d5079463a6/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20end%20of%20project.lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Move cursor to measure 8.lua" type="script" desc="Move cursor to measure 8">
       <version name="1.0" author="me2beats" time="2017-09-23T10:18:49Z">
         <changelog><![CDATA[+ init]]></changelog>
@@ -2624,6 +2642,12 @@
       <version name="1.0" author="me2beats" time="2017-09-09T16:21:57Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/63270290a174d9a3559bcf482a8d0902ea81fa71/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20start%20of%20loop.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Move cursor to start of project.lua" type="script" desc="Move cursor to start of project">
+      <version name="1.0" author="me2beats" time="2017-09-29T19:12:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/d428dead396fcddcf7b6ddb47e56e8d5079463a6/Transport%20and%20navigation/me2beats_Move%20cursor%20to%20start%20of%20project.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Move cursor to the rightmost item end.lua" type="script" desc="Move cursor to the rightmost item end">
