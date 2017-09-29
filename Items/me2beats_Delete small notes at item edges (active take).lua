@@ -1,3 +1,9 @@
+-- @description Delete small notes at item edges (active take)
+-- @version 1.0
+-- @author me2beats
+-- @changelog
+--  + init
+
 -------------you can set minimal note length here (seconds)
 local min = .2
 -----------------------------------------------------------
