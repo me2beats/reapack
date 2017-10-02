@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="d428dead396fcddcf7b6ddb47e56e8d5079463a6">
+<index version="1" name="me2beats Scripts" commit="2aeaf4a549342d31039b56e37ce1a655a91ea9b0">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -944,10 +944,22 @@
         <source main="main">https://github.com/me2beats/reapack/raw/294e53efeb9a253017bb788a8a5a5b4200294f97/Items/me2beats_Toggle%20open%20inline%20editors%20of%20item%20at%20mouse.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Toggle open items inline editors (+ zoom).lua" type="script" desc="Toggle open items inline editors (+ zoom)">
+      <version name="1.0" author="me2beats" time="2017-10-02T06:30:36Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2aeaf4a549342d31039b56e37ce1a655a91ea9b0/Items/me2beats_Toggle%20open%20items%20inline%20editors%20(+%20zoom).lua</source>
+      </version>
+    </reapack>
     <reapack name="me2beats_Toggle open items inline editors.lua" type="script" desc="Toggle open items inline editors">
       <version name="1.0" author="me2beats" time="2017-04-07T03:06:47Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/294e53efeb9a253017bb788a8a5a5b4200294f97/Items/me2beats_Toggle%20open%20items%20inline%20editors.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Toggle random active takes reverse.lua" type="script" desc="Toggle random active takes reverse">
+      <version name="1.0" author="me2beats" time="2017-10-02T06:30:36Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/2aeaf4a549342d31039b56e37ce1a655a91ea9b0/Items/me2beats_Toggle%20random%20active%20takes%20reverse.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Toggle select item near mouse.lua" type="script" desc="Toggle select item near mouse">
