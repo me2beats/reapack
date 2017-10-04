@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="23e90fd92954a41ec521d6e0a0c8718898d7f4e9">
+<index version="1" name="me2beats Scripts" commit="6fa5b465f029f8b80ed41f01cb6176dd51f807de">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -2486,6 +2486,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Show%20selected%20track%20sends%20fx%20windows.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Show-hide children of selected tracks.lua" type="script" desc="Show-hide children of selected tracks">
+      <version name="1.0" author="me2beats" time="2017-10-04T18:35:40Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/6fa5b465f029f8b80ed41f01cb6176dd51f807de/Tracks/me2beats_Show-hide%20children%20of%20selected%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Smart insert track (keep track height).lua" type="script" desc="Smart insert track (selected track height)">
