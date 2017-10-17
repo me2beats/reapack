@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="6fa5b465f029f8b80ed41f01cb6176dd51f807de">
+<index version="1" name="me2beats Scripts" commit="8725d881d259761bdd323e6257d33bf61c34be4a">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1960,6 +1960,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Close%20focused%20track%20fx%20window.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Copy track name to clipboard.lua" type="script" desc="Copy track name to clipboard">
+      <version name="1.0" author="me2beats" time="2017-10-17T14:15:44Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/8725d881d259761bdd323e6257d33bf61c34be4a/Tracks/me2beats_Copy%20track%20name%20to%20clipboard.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Create child track for track at mouse (move items).lua" type="script" desc="Create child track for track at mouse (move items)">
