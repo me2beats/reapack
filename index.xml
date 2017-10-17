@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="8725d881d259761bdd323e6257d33bf61c34be4a">
+<index version="1" name="me2beats Scripts" commit="f9efe2b82e3dd3e229b1769260f3cdf3eff31a8f">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1922,6 +1922,12 @@
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Projects/me2beats_Save%20all%20unsaved%20(dirty)%20projects%20as%20new%20versions.lua</source>
       </version>
     </reapack>
+    <reapack name="me2beats_Stop all playing projects but current one.lua" type="script" desc="Stop all playing projects but current one">
+      <version name="1.0" author="me2beats" time="2017-10-17T23:01:46Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/f9efe2b82e3dd3e229b1769260f3cdf3eff31a8f/Projects/me2beats_Stop%20all%20playing%20projects%20but%20current%20one.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Tracks">
     <reapack name="me2beats_Auto select track with focused FX (defer).lua" type="script" desc="Auto select track with focused FX (defer)">
@@ -2114,6 +2120,18 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="main">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/Tracks/me2beats_Nudge%20selected%20tracks%20volume%20up%20by%201%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge tracks volume down 0.5 db.lua" type="script" desc="Nudge tracks volume down 0.5 db">
+      <version name="1.0" author="me2beats" time="2017-10-17T23:01:46Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/f9efe2b82e3dd3e229b1769260f3cdf3eff31a8f/Tracks/me2beats_Nudge%20tracks%20volume%20down%200.5%20db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Nudge tracks volume up 0.5 db.lua" type="script" desc="Nudge tracks volume up 0.5 db">
+      <version name="1.0" author="me2beats" time="2017-10-17T23:01:46Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="main">https://github.com/me2beats/reapack/raw/f9efe2b82e3dd3e229b1769260f3cdf3eff31a8f/Tracks/me2beats_Nudge%20tracks%20volume%20up%200.5%20db.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Remove focused track fx.lua" type="script" desc="Remove focused track fx">
