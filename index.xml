@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="me2beats Scripts" commit="f9efe2b82e3dd3e229b1769260f3cdf3eff31a8f">
+<index version="1" name="me2beats Scripts" commit="8d1ae10f081b71226aae291e4e2daf6e938f9428">
   <category name="Envelopes">
     <reapack name="me2beats_Copy active take envelopes.lua" type="script" desc="Copy active take envelopes">
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
@@ -1718,6 +1718,12 @@
       <version name="1.0" author="me2beats" time="2017-01-26T08:58:59Z">
         <changelog><![CDATA[+ init]]></changelog>
         <source main="midi_editor">https://github.com/me2beats/reapack/raw/97365500eb18adf2cca7d40b5cf18c846f8e21d6/MIDI%20Editor/me2beats_Solo%20track%20with%20active%20midi%20editor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="me2beats_Split MIDI item at notes starts.lua" type="script" desc="Split MIDI item at notes starts">
+      <version name="1.0" author="me2beats" time="2017-10-28T20:59:35Z">
+        <changelog><![CDATA[+ init]]></changelog>
+        <source main="midi_editor">https://github.com/me2beats/reapack/raw/8d1ae10f081b71226aae291e4e2daf6e938f9428/MIDI%20Editor/me2beats_Split%20MIDI%20item%20at%20notes%20starts.lua</source>
       </version>
     </reapack>
     <reapack name="me2beats_Split notes (select left).lua" type="script" desc="Split notes (select left)">
