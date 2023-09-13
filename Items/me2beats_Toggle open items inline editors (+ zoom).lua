@@ -6,7 +6,9 @@
 
 local r = reaper
 
-local action = r.NamedCommandLookup'_SWS_TOGZOOMIONLY'
+-- https://forum.cockos.com/showthread.php?t=279526#23
+local version = tonumber(r.GetAppVersion():match('[%d%.]+')) -- mod
+local action = version <= 6.75 and r.NamedCommandLookup'_SWS_TOGZOOMIONLY' or r.NamedCommandLookup'_SWS_TOGZOOMIONLY_NO_ENV' -- mod
 
 local state = r.GetToggleCommandState(action)
 
